@@ -1,0 +1,40 @@
+Database Name,URL,Script File,Status,Timestamp
+American So. of Mech. Engg. (ASME),https://asmedigitalcollection.asme.org/,American So. of Mech. Engg. (ASME).py,Error: No module named 'Codes.American So',2025-05-27 10:17:02
+ARTSTOR,https://www.jstor.org/,ARTSTOR.py,Running,2025-05-27 10:17:56
+ACE Equity V2,https://www.acekp.in/HomePage.aspx,ACE Equity V2.py,Not Running,2025-05-27 10:17:56
+ACS Publications,https://pubs.acs.org/journal/accacs,ACS Publications.py,Running,2025-05-27 10:17:58
+ACM Digital Library,https://dl.acm.org/,ACM Digital Library.py,Running,2025-05-27 10:17:58
+BIS Standard,https://standards.bsbedge.com/dashboard,BIS Standard.py,Running,2025-05-27 10:17:59
+American Institute of Physics (AIP),https://pubs.aip.org/aip,American Institute of Physics (AIP).py,Not Running,2025-05-27 10:18:31
+IEEE Xplore Digital Library,https://ieeexplore.ieee.org/Xplore/home.jsp,IEEE Xplore Digital Library.py,Running,2025-05-27 10:18:31
+EBSCO Business Source Ultimate,https://research.ebsco.com/c/el46ki/search,EBSCO Business Source Ultimate.py,Running,2025-05-27 10:18:46
+Cambridge Uni.Press (15 Jo.) ,https://www.cambridge.org/core/publications/journals#,camb_Uni_Press.py,Running,2025-05-27 10:18:55
+Industry Outlook,https://industryoutlook.cmie.com/,Industry Outlook.py,Running,2025-05-27 10:18:57
+Economic Outlook,https://economicoutlook.cmie.com/,Economic Outlook.py,Running,2025-05-27 10:18:57
+EPWRF,https://epwrfits.in/,EPWRF.py,Running,2025-05-27 10:18:57
+JSTOR,https://www.jstor.org/,JSTOR.py,Running,2025-05-27 10:18:57
+ProQuest E-Books Central,https://ebookcentral.proquest.com/lib/ahduniin/home.action,ProQuest E-Books Central.py,Running,2025-05-27 10:19:43
+MathScinet,https://mathscinet.ams.org/mathscinet/publications-search,MathScinet.py,Running,2025-05-27 10:19:44
+Science Direct,https://www.sciencedirect.com/,Science Direct.py,Running,2025-05-27 10:19:45
+Sage Journals collection ,https://journals.sagepub.com/home,Sage Journals collection.py,Running,2025-05-27 10:20:10
+Prime Infobase,https://www.primeinfobase.com/myaccount.aspx,Prime Infobase.py,Not Running,2025-05-27 10:20:11
+Project Muse,https://muse.jhu.edu/,Project Muse.py,Not Running,2025-05-27 10:20:11
+Wiley Management Journals Collection,https://onlinelibrary.wiley.com/,Wiley Management Journals Collection.py,Running,2025-05-27 10:20:13
+Ethics : an International Journal of Social Political and Legal Philosophy,https://www.journals.uchicago.edu/loi/et,ethics.py,Error: module 'Codes.ethics' has no attribute 'check_access',2025-05-27 10:20:13
+Psychological Studies (Electronic),https://link.springer.com/journal/12646/volumes-and-issues,Psychological Studies.py,Error: module 'Codes.Psychological Studies' has no attribute 'check_access',2025-05-27 10:20:13
+Health Promotion International,https://www.jstor.org/journal/,Health Promotion International.py,Error: module 'Codes.Health Promotion International' has no attribute 'check_access',2025-05-27 10:20:13
+Heritage and Society,https://www.tandfonline.com/loi/yhso20,Heritage and Society.py,Error: module 'Codes.Heritage and Society' has no attribute 'check_access',2025-05-27 10:20:13
+International Journal of Number Theory,https://www.worldscientific.com/worldscinet/ijnt?srsltid=AfmBOopRYimEuwWCgVrwQBM0YAp5MhM3-ZC7QPyiarr9GcDOlr-bYUU_,International Journal of Number Theory.py,Error: module 'Codes.International Journal of Number Theory' has no attribute 'check_access',2025-05-27 10:20:13
+International Journal of Heritage and Studies,https://www.tandfonline.com/loi/rjhs20,International Journal of Heritage and Studies.py,Error: module 'Codes.International Journal of Heritage and Studies' has no attribute 'check_access',2025-05-27 10:20:14
+States of India,https://statesofindia.cmie.com/,States of India.py,Not Running,2025-05-27 10:21:04
+Press reader ,https://www.pressreader.com/,Press reader.py,Not Running,2025-05-27 10:21:05
+Scopus,https://www.scopus.com/search/form.uri?display=basic#basic,Scopus.py,Not Running,2025-05-27 10:21:13
+Journal of Financial and Quantitative Analysis,https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/all-issues,Journal of Financial and Quantitative Analysis.py,Running,2025-05-27 10:21:25
+Venture Intelligence PE/VC,https://www.ventureintelligence.com/dashboard,Venture Intelligence.py,Not Running,2025-05-27 10:21:25
+Wiley Online Books,https://onlinelibrary.wiley.com/,Wiley Online Books.py,Running,2025-05-27 10:21:26
+Journal of Political Economy,https://www.journals.uchicago.edu/loi/jpe,Journal of Political Economy.py,Running,2025-05-27 10:21:46
+Review of Accounting Studies,https://link.springer.com/journal/11142/volumes-and-issues,Review of Accounting Studies.py,Running,2025-05-27 10:21:46
+The Review of Economic Studies,https://www.jstor.org/,The Review of Economic Studies.py,Running,2025-05-27 10:21:46
+Journal of the Academy of Marketing Science,https://link.springer.com/journal/11747/volumes-and-issues,Journal of the Academy of Marketing Science.py,Running,2025-05-27 10:21:47
+Journal of International Business Studies,https://www.jstor.org/,Journal of International Business Studies.py,Running,2025-05-27 10:21:49
+Journal of Business Venturing,https://www.sciencedirect.com/journal/journal-of-business-venturing,Journal of Business Venturing.py,Running,2025-05-27 10:21:54

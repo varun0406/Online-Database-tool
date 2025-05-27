@@ -1,0 +1,1291 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8"><title>
+	EPWRF India Time Series 
+</title><meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  
+  <!-- Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic">
+
+  <!-- Plagins CSS -->
+  <link rel="stylesheet" href="css/buttons/buttons.css"><link rel="stylesheet" href="css/buttons/social-icons.css"><link rel="stylesheet" href="css/all.min.css"><link rel="stylesheet" href="css/bootstrap.min.css"><link rel="stylesheet" href="css/settings.css"><link rel="stylesheet" href="css/datepicker.css">
+  
+  
+  <!-- Theme CSS -->
+ <link rel="stylesheet" href="css/style.css">
+
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/customizer/pages.css"><link rel="stylesheet" href="css/customizer/pages-pages-customizer.css"><link rel="stylesheet" href="css/CustomStyles.css">
+    
+   
+  <!-- IE Styles-->
+  <link rel="stylesheet" href="css/ie/ie.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<link rel="stylesheet" href="css/ie/ie8.css" />
+  <![endif]-->
+   
+    <style type="text/css">
+ .modal_loader
+{
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.8;
+}
+
+ 
+.center
+{
+    z-index: 1000;
+    margin: 500px auto;
+    padding: 10px;
+    width: 75px;
+    background-color: White;
+    border-radius: 10px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+}
+.center img
+{
+    /*height: 128px;
+    width: 128px;*/
+    height: 50px;
+    width: 50px;
+}
+        .help_icon {
+
+            
+    /*padding-left:5px;*/
+    /*border-left: 1px solid #ccc;*/
+    border-left: 1px solid rgba(204,204,204,.8);
+        display: inline-block;
+    height: 30px;
+    margin: 8px 0 0 0px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 35px;
+        }
+        .healthLnk {text-decoration:none;
+        }
+        #ctl00_HealthLink li a:hover {
+            text-decoration:none !important;
+        }
+         #ctl00_HealthLink li a:visited {
+            text-decoration:none !important;
+        }
+          #ctl00_HealthLink li  {
+            padding-bottom:5px !important;
+        }
+        
+        .active1 {
+           
+            border-bottom:2px solid #428bca;
+            /*color:#0098ca;*/
+            /*font-weight:bold;*/
+            padding-bottom:5px;
+             font-weight:500;
+            -webkit-transition: color 0.2s ease-in;
+           -moz-transition: color 0.2s ease-in;
+           -o-transition: color 0.2s ease-in;
+           -ms-transition: color 0.2s ease-in;
+           transition: color 0.2s ease-in;
+        }
+    </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+     
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4EJS7FHSR2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4EJS7FHSR2');
+</script> 
+    
+
+<meta name="description" content="EPWRF India Time Series is an interactive online database on Indian Economy."><meta name="keywords" content="Data, Economics, Macroeconomic data, Database, National Income, time series, SDP, government finances, industry, agriculture, external sector, financial markets, banking, health, education, GDP, EPWRF India Time Series, output, revenue, capital, NPAs"><meta http-equiv="keywords" name="keywords" content="Data, Economics, Macroeconomic data, Database, National Income, time series, SDP, government finances, industry, agriculture, external sector, financial markets, banking, health, education, GDP, EPWRF India Time Series, output, revenue, capital, NPAs"><meta http-equiv="description" name="description" content="EPWRF India Time Series is an interactive online database on Indian Economy."><script src="js/bootstrap.min.js"></script><meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/61/1/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/61/1/util.js"></script></head>
+    
+<body class="loaded" style="">
+     <form name="aspnetForm" method="post" action="Main_screen.aspx?userfeedback=true" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExMjMzODE0NjUPZBYCZg9kFgICAQ9kFgoCAw8WAh4HVmlzaWJsZWgWAgIBD2QWAgIBDxYCHwBoZAIFDxYCHwBoZAIHDxYCHwBoZAILDw8WAh4EVGV4dAUGYWhkdW5pZGQCDw9kFgQCAg9kFh4CAQ8WAh4Fc3R5bGUFFG1hcmdpbjoxMHB4IDAgMTBweCAwZAIDD2QWBGYPZBYCZg9kFgJmD2QWAmYPFgIeBXRpdGxlBRFTdWJzY3JpYmVkIE1vZHVsZWQCAQ9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCBA9kFgRmD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAIBD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAIFD2QWBGYPZBYCZg9kFgJmD2QWAmYPFgIfAwURU3Vic2NyaWJlZCBNb2R1bGVkAgEPZBYCZg9kFgJmD2QWAmYPFgIfAwURU3Vic2NyaWJlZCBNb2R1bGVkAgYPZBYEZg9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCAQ9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCBw9kFgRmD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAIBD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAIID2QWBGYPZBYCZg9kFgJmD2QWAmYPFgIfAwURU3Vic2NyaWJlZCBNb2R1bGVkAgEPZBYCZg9kFgJmD2QWAmYPFgIfAwURU3Vic2NyaWJlZCBNb2R1bGVkAgkPZBYEZg9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCAQ9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCCg9kFgRmD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAIBD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAILD2QWBGYPZBYCZg9kFgJmD2QWAmYPFgIfAwURU3Vic2NyaWJlZCBNb2R1bGVkAgEPZBYCZg9kFgJmD2QWAmYPFgIfAwURU3Vic2NyaWJlZCBNb2R1bGVkAgwPZBYEZg9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCAQ9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCDQ9kFgRmD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAIBD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAIOD2QWBGYPZBYCZg9kFgJmD2QWAmYPFgIfAwURU3Vic2NyaWJlZCBNb2R1bGVkAgEPZBYCZg9kFgJmD2QWAmYPFgIfAwURU3Vic2NyaWJlZCBNb2R1bGVkAg8PZBYEZg9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCAQ9kFgJmD2QWAmYPZBYCZg8WAh8DBRFTdWJzY3JpYmVkIE1vZHVsZWQCEA9kFgJmD2QWAmYPZBYCZg9kFgJmDxYCHwMFEVN1YnNjcmliZWQgTW9kdWxlZAIDD2QWAgIBDxYCHwIFFG1hcmdpbjoxMHB4IDAgMTBweCAwZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAwUUY3RsMDAkY2hrRXhhY3RTZWFyY2gFEmN0bDAwJGNoa1NlbGVjdEFsbAUVY3RsMDAkY2hrTW9kdWxlTGlzdCQwK4GK+dv8DBnVEZmrTztpfOVwsA0=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=6kXDduEizDTnP76VnQQl9k5O6DgdAbwWvADQqL25oAVYzkd8omxXRDMHEuL1yYoUjFQgvzfkI-lg13caPPBzuEJiYtg1&amp;t=638314135380000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=0gN-7VJOJmarjepNgaFL8J5m5LR_0s7NQUP2ATvXcgg4aiMdp9ufdhEExI4ayCVkpfhJI0Bq8KOqUyYANkzVqLS4UHRClwsXbQKYeNl8BPBA62crax7C7TLTgFoMFwj6w2hW28jVwcn0kmGZqfcBqYtwNKs1&amp;t=ffffffff9bc22534" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qEVz4m5W1jHKCB64iSzkzSzvqHM3Z_MizMyKJTe8xBQfqZWo918jenHJq510ErAlD5KAi4H_sJkO0Upfntalf8kz-7UN0rmuUZbH9SIetU8V4Dfpp0tX-nm6ZkaokcOHFyaOy2i_wY7DoAZYtYTWQjgj1ChZpFtwmbX1GowpR8eOotMt0&amp;t=ffffffff9bc22534" type="text/javascript"></script>
+<script src="EpwWebService.asmx/js" type="text/javascript"></script>
+<script src="EpwWebService_VerTwo.asmx/js" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B64524CD">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWNwK+kJ+JBgK+nYabCgLE5ML0AgL9n+COAgLV6LetDQK76pzxCgKmw+CaBALC+szWDAK1v/OsAQKR7JCsBwKS7JCsBwKT7JCsBwKU7JCsBwKW7JCsBwKX7JCsBwKY7JCsBwKJ7JCsBwKK7JCsBwKS7NyqBwKS7MCqBwKS7MiqBwKS7MyqBwKT7NiqBwKT7NyqBwKT7MCqBwKT7MSqBwKT7MiqBwKT7MyqBwKT7LCqBwKU7NSqBwKU7NiqBwKU7NyqBwKU7MCqBwKU7MiqBwKU7LCqBwKV7NCqBwKV7JCsBwKS7NCqBwKS7NSqBwKS7NiqBwKS7MSqBwKS7LCqBwKS7LSqBwKT7NCqBwKT7NSqBwKT7LSqBwKU7NCqBwKU7MSqBwKU7MyqBwKU7LSqBwKV7NSqBwL40JWiCgK5tuSuDgLni6mrBwK60I/zD9VlMRQwu/FCas21niYKZy/4MO3F">
+</div>
+           <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$UpdatePanel1'], [], [], 3600);
+//]]>
+</script>
+
+    <div class="page-box" style="background-color:#F4F9FD">
+<div class="page-box-content">
+    
+<header class="header header-two">
+  <div class="header-wrapper" style="background-color:#F4F9FD">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-xs-12 col-md-2 col-lg-3 logo-box">
+		  <div class="logo custom-logo">
+			<a href="index.aspx">
+			 
+                  <img src="img/EPWRF-India-Time-Series-Inner-Logo.png" class="logo-img" alt="" style="width:510px;height:44px;">
+			</a>
+		  </div>
+		</div><!-- .logo-box -->
+		  
+		<div class="col-xs-12 col-md-10 col-lg-9 right-box custom-right-box">
+           
+		   <div class="right-box-wrapper custom-right-box-wrapper">
+             
+               
+
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="primary">
+                    <div class="navbar navbar-default" role="navigation">
+                        <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target=".primary .navbar-collapse">
+                          <span class="text">Menu</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+        
+                        <nav class="collapse collapsing navbar-collapse custom-navbar-collapse">
+                          <ul class="nav navbar-nav navbar-center">
+                      <li class="parent"><a href="main_screen.aspx">Home</a>
+                          
+                      </li>
+                      
+
+                      
+
+                        
+                      <li class="parent"><a href="support.aspx?innerMastPage=True">Support</a></li>
+                    
+                        <li id="loadSavedQry" class="parent item-primary item-bg" style="display: none;">
+                                <a href="#" data-toggle="modal" data-target="#Modal_Load" onclick="LoadModal()" title="Load Saved Query">Saved Query</a>
+                              </li>
+                      <li class="">
+
+                        
+                              <a id="ctl00_btnlogout" class="btn-block text-left" href="javascript:__doPostBack('ctl00$btnlogout','')">Logout</a>
+                      </li>
+                       
+                     
+                          </ul>
+               
+                        </nav>
+                    </div>
+                  </div><!-- .primary -->
+                  </div>
+
+                  <div class="col-xs-6 col-sm-6 col-md-4 custom-remove-top-padding" style="padding: 12px 3px 0;margin-top: 15px; text-align:left">
+                     <span class="pull-right"> Welcome <span id="ctl00_lblUserName">ahduni</span>      </span>
+                  </div>
+                     <div class=" visible-lg visible-md col-md-2">
+                         <div class="header-icons">
+                             <div class="search-header hidden-600">
+                                 <a href="#">
+                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                                         <path d="M12.001,10l-0.5,0.5l-0.79-0.79c0.806-1.021,1.29-2.308,1.29-3.71c0-3.313-2.687-6-6-6C2.687,0,0,2.687,0,6
+                              s2.687,6,6,6c1.402,0,2.688-0.484,3.71-1.29l0.79,0.79l-0.5,0.5l4,4l2-2L12.001,10z M6,10c-2.206,0-4-1.794-4-4s1.794-4,4-4
+                              s4,1.794,4,4S8.206,10,6,10z">
+                                         </path>
+                                         <image src="img/png-icons/search-icon.png" alt="" width="16" height="16" style="vertical-align: top;">
+                                     </image></svg>
+                                 </a>
+                             </div>
+                             <!-- .search-header-->
+                             <div class="phone-header hidden-600">
+                                 <a href="#">
+                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                                         <path d="M11.001,0H5C3.896,0,3,0.896,3,2c0,0.273,0,11.727,0,12c0,1.104,0.896,2,2,2h6c1.104,0,2-0.896,2-2
+                              c0-0.273,0-11.727,0-12C13.001,0.896,12.105,0,11.001,0z M8,15c-0.552,0-1-0.447-1-1s0.448-1,1-1s1,0.447,1,1S8.553,15,8,15z
+                              M11.001,12H5V2h6V12z">
+                                         </path>
+                                         <image src="img/png-icons/phone-icon.png" alt="" width="16" height="16" style="vertical-align: top;">
+                                     </image></svg>
+                                 </a>
+                             </div>
+                             <!-- .phone-header -->
+                             <div class="help_icon icon">
+                                 <a href="howtouse_new.aspx" target="_blank">
+                                     <i class="fa fa-question" style="font-size: 22px;"></i>
+                                 </a>
+                             </div>
+                         </div><!-- .header-icons -->
+                  </div>
+              
+        
+              
+            
+              </div>
+             
+          
+		<div class="phone-active col-sm-9 col-md-9 custom-phone-active">
+		  <a href="#" class="close"><span>close</span>×</a>
+		  <span class="title">Call Us</span> <strong>+91-22-2885 4995 / 96</strong>
+		</div>
+          
+            <div class="search-active col-sm-9 col-md-9" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_btnSearch')">
+	
+                <a href="#" class="close"><span>close</span>×</a>
+                <div id="ctl00_UpdatePanel1">
+		
+                        <div class="search-form">
+                            <input name="ctl00$txtSearch" type="text" id="ctl00_txtSearch" class="search-string form-control custom-search-string" placeholder="Search here">
+                            <a id="ctl00_btnSearch" class="search-submit" href="javascript:__doPostBack('ctl00$btnSearch','')">
+			  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+				<path fill="#231F20" d="M12.001,10l-0.5,0.5l-0.79-0.79c0.806-1.021,1.29-2.308,1.29-3.71c0-3.313-2.687-6-6-6C2.687,0,0,2.687,0,6
+				s2.687,6,6,6c1.402,0,2.688-0.484,3.71-1.29l0.79,0.79l-0.5,0.5l4,4l2-2L12.001,10z M6,10c-2.206,0-4-1.794-4-4s1.794-4,4-4
+				s4,1.794,4,4S8.206,10,6,10z"></path>
+				<image src="img/png-icons/search-icon.png" alt="" width="16" height="16" style="vertical-align: top;"></image>
+			  </svg>
+                           </a>
+                        </div>
+                        <input name="ctl00$hdPageName" type="hidden" id="ctl00_hdPageName" value="Main_screen.aspx?userfeedback=true">
+                        <div class="modal fade" id="Modal_Search" tabindex="-1" role="dialog" width="100%" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="my-span-modal">×</span></button>
+                                        <h4 class="modal-title" id=""></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    
+                                                    <span id="ctl00_lbldataAvail" style="color:Red;font-size:Small;font-weight:bold;"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Container-->
+                                </div>
+                                <!-- Modal Body-->
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modal_All_Search" tabindex="-1" role="dialog" width="100%" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="my-span-modal">×</span></button>
+                                        <h4 class="modal-title" id=""></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <input name="ctl00$txtAllModSearch" type="text" id="ctl00_txtAllModSearch" class="search-string form-control custom-search-string" placeholder="Search here">
+                                                    <div class="panel-collapse" title="Advance Search">
+                                                        <input id="ctl00_chkExactSearch" type="checkbox" name="ctl00$chkExactSearch"><label for="ctl00_chkExactSearch">Exact word or phrase</label>
+                                                    </div>
+
+                                                    <h5>Select Module:</h5>
+                                                    <input id="ctl00_chkSelectAll" type="checkbox" name="ctl00$chkSelectAll" onclick="SelectAll();"><label for="ctl00_chkSelectAll">Select All</label>
+                                                    <div id="divCheckListBox" style="overflow-y: scroll; max-height: 150px; margin-bottom: 15px; padding-bottom: 10px;">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <input type="submit" name="ctl00$btnSearchSubmit" value="Submit" onclick="return onTextSearchText();" id="ctl00_btnSearchSubmit" class="btn btn-default">
+                                                    <div id="ctl00_divAllModuleSearchTree"></div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    
+
+                                                    <span id="ctl00_Label1" style="color:Red;font-size:Small;font-weight:bold;"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Container-->
+
+                                </div>
+                                <!-- Modal Body-->
+
+                            </div>
+                        </div>
+                    
+	</div>
+            
+</div>
+    </div><!--.row -->
+	</div><!-- .container -->
+  </div><!-- .header-wrapper -->
+      </div>
+</header><!-- .header -->
+
+    
+
+<section id="main">
+
+  
+   
+       
+   
+        
+       <script src="scripts/Page_Validation_Fns.js" type="text/javascript"></script>  
+    <style>
+        /*.btnTxt:hover {
+            top: 0px;
+           transition: top 0.218s ease 0s;
+        }
+        .browse-text {
+              top: 2px;
+            transition: top 0.218s ease 0s; 
+        }
+        .readmore-text {
+        }
+
+        .mod-info .mod-text {
+             margin-left: 10px;
+               height: 38px;   float: left;  padding: 5px 0; 
+        }*/
+
+
+        .mod-info {
+             /*border-bottom:1px solid #e6e6e6; 
+             padding-right:10px;*/
+        }
+
+       .mod-info .icon:hover {border: 1px solid #147dd5;
+         
+      /*transition: all 0.218s ease 0s;*/ 
+        }
+        /*.mod-text:hover ~ .icon {
+            border: 1px solid #147dd5;
+        }*/
+
+        /*.mod-info .mod-text .mod-title:hover .icon:after  {
+
+              border: 1px solid #147dd5;
+        }*/
+            .mod-info:hover .icon {
+                border: 1px solid #147dd5;
+            }
+        .border {
+             /*background-color:#eee8e8;*/
+             background-color:#e5e5e5;
+             border: 1px solid #147dd5;
+        }
+         .title-box:before {
+            background: none !important;
+        }
+        #tree1 { display:none;
+        }
+    </style>
+    
+    
+   <div id="ctl00_ContentPlaceHolder1_divHealthLink" class="container-fluid custom-breadcrumb">
+    <div class="row">
+    
+          <div class="col-sm-12 col-md-12">
+             <div class="lead text-left my-custom-align-left custom-breadcrumb-header">  Modules </div>  
+
+          </div> <!-- Col - md -12 -->
+
+    </div> <!-- Row -->
+   </div><!-- .breadcrumb-box -->
+
+
+
+    <div class="container-fluid">   
+          
+
+
+      <div class="col-sm-12 col-md-6 col-lg-6 service left_width_1024">
+     
+         
+          <article id="ctl00_ContentPlaceHolder1_contentSubscriptionModList" class="content moduleDesc"></article>
+           <article id="ctl00_ContentPlaceHolder1_articalSubMod" class="content moduleDesc" style="margin-bottom:10px;">
+                   <div id="ctl00_ContentPlaceHolder1_SubbModHead" class="page-header" style="margin:10px 0 10px 0">
+         <div class="lead"><b>Subscribed Module</b></div>
+       </div>
+           <div id="ctl00_ContentPlaceHolder1_divSubRowService1" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails0" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow0" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo0" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg0" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon0" class="fa fa-chart-pie"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext0" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title0" class="mod-title custom-title">National Accounts Statistics of India</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt0" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text0" class="browse-text"><a onclick="OnClick1('National Accounts Statistics of India','TypesOfNAS.aspx','11');" id="ctl00_ContentPlaceHolder1_linkBrowse0" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse0','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text0" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore0" onclick=" GetModuleInfo('National Accounts Statistics of India','TypesOfNAS.aspx','11')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore0" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails1" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow1" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo1" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg1" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon1" class="fa fa-chart-bar"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext1" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title1" class="mod-title custom-title">Domestic Product of States of India</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt1" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text1" class="browse-text"><a onclick="OnClick1('Domestic Product of States of India','SDPTreeViewData.aspx','3');" id="ctl00_ContentPlaceHolder1_linkBrowse1" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse1','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text1" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore1" onclick="GetModuleInfo( 'Domestic Product of States of India','SDPTreeViewData.aspx','3')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore1" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService2" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails2" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow2" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo2" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg2" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon2" class="fa fa-tachometer-alt"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext2" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title2" class="mod-title custom-title">Price Indices</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt2" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text2" class="browse-text"><a onclick="OnClick1('Price Indices','TypesOfPrices.aspx','5');" id="ctl00_ContentPlaceHolder1_linkBrowse2" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse2','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text2" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore2" onclick=" GetModuleInfo('Price Indices','TypesOfPrices.aspx','5')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore2" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails3" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow3" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo3" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg3" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon3" class="fas fa-cookie-bite"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext3" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title3" class="mod-title custom-title">Consumption Expenditure Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt3" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text3" class="browse-text"><a onclick="OnClick1('Consumption Expenditure Statistics','ConsumptionExpenditureStatistics_Main.aspx','26');" id="ctl00_ContentPlaceHolder1_linkBrowse3" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse3','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text3" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore3" onclick="GetModuleInfo( 'Consumption Expenditure Statistics','ConsumptionExpenditureStatistics_Main.aspx','26')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore3" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService3" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails5" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow5" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo5" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg5" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon5" class="far fa-id-card"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext5" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title5" class="mod-title custom-title">Employment Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt5" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text5" class="browse-text"><a onclick="OnClick1('Employment Statistics','EmploymentStatistics.aspx','22');" id="ctl00_ContentPlaceHolder1_linkBrowse5" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse5','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text5" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore5" onclick=" GetModuleInfo('Employment Statistics','EmploymentStatistics.aspx','22')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore5" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails6" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow6" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo6" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg6" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon6" class="fas fa-tools"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext6" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title6" class="mod-title custom-title">Labour Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt6" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text6" class="browse-text"><a onclick="OnClick1('Labour Statistics','Labour_Statistics.aspx','25');" id="ctl00_ContentPlaceHolder1_linkBrowse6" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse6','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text6" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore6" onclick="GetModuleInfo( 'Labour Statistics','Labour_Statistics.aspx','25')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore6" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService4" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails7" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow7" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo7" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg7" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon7" class="fas fa-street-view"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext7" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title7" class="mod-title custom-title">Employment Exchange Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt7" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text7" class="browse-text"><a onclick="OnClick1('Employment Exchange Statistics','Employment_Exchange_Statistics.aspx','24');" id="ctl00_ContentPlaceHolder1_linkBrowse7" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse7','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text7" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore7" onclick=" GetModuleInfo('Employment Exchange Statistics','Employment_Exchange_Statistics.aspx','24')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore7" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails8" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow8" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo8" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg8" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon8" class="far fa-newspaper"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext8" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title8" class="mod-title custom-title">Economic Census</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt8" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text8" class="browse-text"><a onclick="OnClick1('Economic Census','Economic_Census.aspx','23');" id="ctl00_ContentPlaceHolder1_linkBrowse8" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse8','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text8" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore8" onclick="GetModuleInfo( 'Economic Census','Economic_Census.aspx','23')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore8" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService5" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails9" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow9" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo9" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg9" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon9" class="fab fa-pagelines"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext9" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title9" class="mod-title custom-title">Agricultural Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt9" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text9" class="browse-text"><a onclick="OnClick1('Agricultural Statistics','TypesOfAgriculture.aspx','4');" id="ctl00_ContentPlaceHolder1_linkBrowse9" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse9','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text9" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore9" onclick=" GetModuleInfo('Agricultural Statistics','TypesOfAgriculture.aspx','4')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore9" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails13" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow13" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo13" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg13" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon13" class="fa fa-solid fa-paw"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext13" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title13" class="mod-title custom-title">Livestock Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt13" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text13" class="browse-text"><a onclick="OnClick1('Livestock Statistics','LivestockStatistics_Main.aspx','30');" id="ctl00_ContentPlaceHolder1_linkBrowse13" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse13','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text13" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore13" onclick="GetModuleInfo( 'Livestock Statistics','LivestockStatistics_Main.aspx','30')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore13" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService6" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails14" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow14" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo14" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg14" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon14" class="fa fa-users"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext14" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title14" class="mod-title custom-title">Wage Rates in Rural India</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt14" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text14" class="browse-text"><a onclick="OnClick1('Wage Rates in Rural India','WageRatesInRuralIndia.aspx','18');" id="ctl00_ContentPlaceHolder1_linkBrowse14" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse14','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text14" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore14" onclick=" GetModuleInfo('Wage Rates in Rural India','WageRatesInRuralIndia.aspx','18')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore14" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails16" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow16" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo16" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg16" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon16" class="fa fa-industry"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext16" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title16" class="mod-title custom-title">Annual Survey of Industries</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt16" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text16" class="browse-text"><a onclick="OnClick1('Annual Survey of Industries','TypesOfASIStateWise.aspx','10');" id="ctl00_ContentPlaceHolder1_linkBrowse16" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse16','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text16" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore16" onclick="GetModuleInfo( 'Annual Survey of Industries','TypesOfASIStateWise.aspx','10')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore16" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService7" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails17" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow17" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo17" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg17" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon17" class="fa fa-cogs"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext17" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title17" class="mod-title custom-title">Industrial Production Series</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt17" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text17" class="browse-text"><a onclick="OnClick1('Industrial Production Series','TypesOfIIPNew.aspx','7');" id="ctl00_ContentPlaceHolder1_linkBrowse17" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse17','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text17" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore17" onclick=" GetModuleInfo('Industrial Production Series','TypesOfIIPNew.aspx','7')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore17" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails22" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow22" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo22" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg22" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon22" class="fa fa-bolt"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext22" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title22" class="mod-title custom-title">Power Sector</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt22" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text22" class="browse-text"><a onclick="OnClick1('Power Sector','PowerSectoreTreeview.aspx','6');" id="ctl00_ContentPlaceHolder1_linkBrowse22" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse22','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text22" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore22" onclick="GetModuleInfo( 'Power Sector','PowerSectoreTreeview.aspx','6')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore22" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService8" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails23" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow23" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo23" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg23" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon23" class="fa fa-align-justify "></i></div><div id="ctl00_ContentPlaceHolder1_divModtext23" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title23" class="mod-title custom-title">External Sector</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt23" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text23" class="browse-text"><a onclick="OnClick1('External Sector','ExternalSectoreTreeview.aspx','12');" id="ctl00_ContentPlaceHolder1_linkBrowse23" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse23','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text23" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore23" onclick=" GetModuleInfo('External Sector','ExternalSectoreTreeview.aspx','12')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore23" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails24" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow24" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo24" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg24" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon24" class="fa-solid fa-indian-rupee-sign"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext24" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title24" class="mod-title custom-title">Monetary Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt24" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text24" class="browse-text"><a onclick="OnClick1('Monetary Statistics','MonetaryStatistics.aspx','17');" id="ctl00_ContentPlaceHolder1_linkBrowse24" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse24','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text24" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore24" onclick="GetModuleInfo( 'Monetary Statistics','MonetaryStatistics.aspx','17')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore24" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService9" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails25" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow25" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo25" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg25" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon25" class="fa fa-chart-line"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext25" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title25" class="mod-title custom-title">Financial Markets</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt25" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text25" class="browse-text"><a onclick="OnClick1('Financial Markets','TreeViewSecurity.aspx','1');" id="ctl00_ContentPlaceHolder1_linkBrowse25" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse25','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text25" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore25" onclick=" GetModuleInfo('Financial Markets','TreeViewSecurity.aspx','1')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore25" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails26" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow26" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo26" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg26" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon26" class="fa fa-university"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext26" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title26" class="mod-title custom-title">Banking Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt26" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text26" class="browse-text"><a onclick="OnClick1('Banking Statistics','BankingStatisticsMain.aspx','2');" id="ctl00_ContentPlaceHolder1_linkBrowse26" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse26','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text26" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore26" onclick="GetModuleInfo( 'Banking Statistics','BankingStatisticsMain.aspx','2')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore26" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService10" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails27" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow27" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo27" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg27" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon27" class="fa fa-solid fa-coins"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext27" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title27" class="mod-title custom-title">Microfinance Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt27" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text27" class="browse-text"><a onclick="OnClick1('Microfinance Statistics','MicrofinanceStatistics.aspx','31');" id="ctl00_ContentPlaceHolder1_linkBrowse27" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse27','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text27" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore27" onclick=" GetModuleInfo('Microfinance Statistics','MicrofinanceStatistics.aspx','31')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore27" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails28" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow28" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo28" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg28" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon28" class="fa fa-solid fa-user-shield"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext28" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title28" class="mod-title custom-title">Insurance Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt28" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text28" class="browse-text"><a onclick="OnClick1('Insurance Statistics','InsuranceStatistics_Main.aspx','14');" id="ctl00_ContentPlaceHolder1_linkBrowse28" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse28','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text28" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore28" onclick="GetModuleInfo( 'Insurance Statistics','InsuranceStatistics_Main.aspx','14')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore28" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService11" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails31" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow31" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo31" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg31" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon31" class="fa  fa-tty"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext31" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title31" class="mod-title custom-title">Telecom Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt31" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text31" class="browse-text"><a onclick="OnClick1('Telecom Statistics','TelecomStatistics.aspx','28');" id="ctl00_ContentPlaceHolder1_linkBrowse31" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse31','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text31" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore31" onclick=" GetModuleInfo('Telecom Statistics','TelecomStatistics.aspx','28')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore31" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails32" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow32" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo32" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg32" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon32" class="fa fa-shopping-bag   "></i></div><div id="ctl00_ContentPlaceHolder1_divModtext32" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title32" class="mod-title custom-title">Finances of the Government of India</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt32" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text32" class="browse-text"><a onclick="OnClick1('Finances of the Government of India','TypesOfFinancesOfGovernmentOfIndia.aspx','8');" id="ctl00_ContentPlaceHolder1_linkBrowse32" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse32','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text32" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore32" onclick="GetModuleInfo( 'Finances of the Government of India','TypesOfFinancesOfGovernmentOfIndia.aspx','8')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore32" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService12" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails33" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow33" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo33" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg33" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon33" class="fa fa-money-bill-alt"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext33" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title33" class="mod-title custom-title">Finances of State Governments</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt33" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text33" class="browse-text"><a onclick="OnClick1('Finances of State Governments','TypesOfStateFinancesOfGovernment.aspx','13');" id="ctl00_ContentPlaceHolder1_linkBrowse33" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse33','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text33" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore33" onclick=" GetModuleInfo('Finances of State Governments','TypesOfStateFinancesOfGovernment.aspx','13')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore33" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails34" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow34" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo34" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg34" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon34" class="fa fa-book"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext34" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title34" class="mod-title custom-title">Combined Government Finances</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt34" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text34" class="browse-text"><a onclick="OnClick1('Combined Government Finances','CombinedGovernmentFinances_Main.aspx','9');" id="ctl00_ContentPlaceHolder1_linkBrowse34" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse34','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text34" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore34" onclick="GetModuleInfo( 'Combined Government Finances','CombinedGovernmentFinances_Main.aspx','9')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore34" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService13" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails36" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow36" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo36" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg36" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon36" class="fa fa-user-md"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext36" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title36" class="mod-title custom-title">Health Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt36" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text36" class="browse-text"><a onclick="OnClick1('Health Statistics','Health_main_screen.aspx','15');" id="ctl00_ContentPlaceHolder1_linkBrowse36" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse36','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text36" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore36" onclick=" GetModuleInfo('Health Statistics','Health_main_screen.aspx','15')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore36" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails38" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow38" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo38" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg38" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon38" class="fa fa-graduation-cap"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext38" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title38" class="mod-title custom-title">Educational Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt38" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text38" class="browse-text"><a onclick="OnClick1('Educational Statistics','Educational_Statistics_Main.aspx','16');" id="ctl00_ContentPlaceHolder1_linkBrowse38" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse38','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text38" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore38" onclick="GetModuleInfo( 'Educational Statistics','Educational_Statistics_Main.aspx','16')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore38" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divSubRowService14" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails40" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow40" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo40" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg40" class="icon bg" title="Subscribed Module"><i id="ctl00_ContentPlaceHolder1_Icon40" class="fa  fa-cloud-sun"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext40" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title40" class="mod-title custom-title">Environment Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt40" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text40" class="browse-text"><a onclick="OnClick1('Environment Statistics','EnvironmentStatistics.aspx','27');" id="ctl00_ContentPlaceHolder1_linkBrowse40" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse40','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text40" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore40" onclick=" GetModuleInfo('Environment Statistics','EnvironmentStatistics.aspx','27')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore40" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div></article>
+           <article id="ctl00_ContentPlaceHolder1_articalMod" class="content moduleDesc" style="margin-bottom:10px;">  
+   <div id="ctl00_ContentPlaceHolder1_unSubbModHead" class="page-header" style="margin:10px 0 10px 0">
+         <div class="lead"><b>Other Module</b></div>
+       </div><div id="ctl00_ContentPlaceHolder1_divPanelHead1" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails4" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow4" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo4" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg4" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon4" class="fas fa-home"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext4" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title4" class="mod-title custom-title">Household Assets and Liabilities Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt4" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text4" class="browse-text"><a onclick="OnClick1('Household Assets and Liabilities Statistics','HALS_Main.aspx','32');" id="ctl00_ContentPlaceHolder1_linkBrowse4" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse4','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text4" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore4" onclick=" GetModuleInfo('Household Assets and Liabilities Statistics','HALS_Main.aspx','32')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore4" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails10" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow10" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo10" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg10" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon10" class="fa  fa-bowl-rice"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext10" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title10" class="mod-title custom-title">Food Grain Statistics </div><div id="ctl00_ContentPlaceHolder1_divbtnTxt10" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text10" class="browse-text"><a onclick="OnClick1('Food Grain Statistics ','FoodGrainStatistics.aspx','37');" id="ctl00_ContentPlaceHolder1_linkBrowse10" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse10','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text10" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore10" onclick="GetModuleInfo( 'Food Grain Statistics ','FoodGrainStatistics.aspx','37')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore10" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divPanelHead2" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails11" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow11" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo11" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg11" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon11" class="fa-solid fa-building-wheat"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext11" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title11" class="mod-title custom-title">Situation Assessment of Agricultural Households</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt11" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text11" class="browse-text"><a onclick="OnClick1('Situation Assessment of Agricultural Households','SAAH.aspx','35');" id="ctl00_ContentPlaceHolder1_linkBrowse11" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse11','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text11" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore11" onclick=" GetModuleInfo('Situation Assessment of Agricultural Households','SAAH.aspx','35')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore11" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails12" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow12" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo12" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg12" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon12" class="fa fa-solid fa-chart-area"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext12" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title12" class="mod-title custom-title">Landholdings Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt12" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text12" class="browse-text"><a onclick="OnClick1('Landholdings Statistics','LandholdingsStats_Main.aspx','34');" id="ctl00_ContentPlaceHolder1_linkBrowse12" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse12','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text12" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore12" onclick="GetModuleInfo( 'Landholdings Statistics','LandholdingsStats_Main.aspx','34')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore12" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divPanelHead3" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails15" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow15" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo15" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg15" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon15" class="fas fa-tractor"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext15" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title15" class="mod-title custom-title">Agricultural Wages in India</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt15" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text15" class="browse-text"><a onclick="OnClick1('Agricultural Wages in India','AgricultureWagesInIndia.aspx','21');" id="ctl00_ContentPlaceHolder1_linkBrowse15" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse15','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text15" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore15" onclick=" GetModuleInfo('Agricultural Wages in India','AgricultureWagesInIndia.aspx','21')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore15" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails18" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow18" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo18" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg18" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon18" class="fa fa-dumpster"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext18" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title18" class="mod-title custom-title">Statistics of Mines</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt18" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text18" class="browse-text"><a onclick="OnClick1('Statistics of Mines','TypesOfMinesAndMinerals.aspx','19');" id="ctl00_ContentPlaceHolder1_linkBrowse18" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse18','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text18" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore18" onclick="GetModuleInfo( 'Statistics of Mines','TypesOfMinesAndMinerals.aspx','19')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore18" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divPanelHead4" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails19" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow19" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo19" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg19" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon19" class="fa fa-people-carry"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext19" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title19" class="mod-title custom-title">Mineral Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt19" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text19" class="browse-text"><a onclick="OnClick1('Mineral Statistics','MineralsStatistics.aspx','20');" id="ctl00_ContentPlaceHolder1_linkBrowse19" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse19','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text19" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore19" onclick=" GetModuleInfo('Mineral Statistics','MineralsStatistics.aspx','20')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore19" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails20" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow20" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo20" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg20" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon20" class="fa fa-solid fa-gas-pump"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext20" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title20" class="mod-title custom-title">Petroleum and Natural Gas Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt20" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text20" class="browse-text"><a onclick="OnClick1('Petroleum and Natural Gas Statistics','PetroleumNaturalGasStatistics.aspx','40');" id="ctl00_ContentPlaceHolder1_linkBrowse20" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse20','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text20" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore20" onclick="GetModuleInfo( 'Petroleum and Natural Gas Statistics','PetroleumNaturalGasStatistics.aspx','40')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore20" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divPanelHead5" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails21" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow21" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo21" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg21" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon21" class="fa fa-flask-vial"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext21" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title21" class="mod-title custom-title">Chemicals and Petrochemicals Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt21" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text21" class="browse-text"><a onclick="OnClick1('Chemicals and Petrochemicals Statistics','ChemicalsPetrochemicalsStatistics.aspx','38');" id="ctl00_ContentPlaceHolder1_linkBrowse21" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse21','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text21" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore21" onclick=" GetModuleInfo('Chemicals and Petrochemicals Statistics','ChemicalsPetrochemicalsStatistics.aspx','38')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore21" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails29" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow29" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo29" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg29" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon29" class="fas fa-road"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext29" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title29" class="mod-title custom-title">Road Transport Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt29" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text29" class="browse-text"><a onclick="OnClick1('Road Transport Statistics','RoadTransportStatistics.aspx','36');" id="ctl00_ContentPlaceHolder1_linkBrowse29" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse29','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text29" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore29" onclick="GetModuleInfo( 'Road Transport Statistics','RoadTransportStatistics.aspx','36')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore29" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divPanelHead6" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails30" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow30" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo30" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg30" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon30" class="fa fa-solid fa-train"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext30" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title30" class="mod-title custom-title">Indian Railways Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt30" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text30" class="browse-text"><a onclick="OnClick1('Indian Railways Statistics','IndianRailwaysStatistics_Main.aspx','41');" id="ctl00_ContentPlaceHolder1_linkBrowse30" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse30','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text30" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore30" onclick=" GetModuleInfo('Indian Railways Statistics','IndianRailwaysStatistics_Main.aspx','41')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore30" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails35" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow35" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo35" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg35" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon35" class="fa fa-solid fa-money-bill-transfer"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext35" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title35" class="mod-title custom-title">Income Tax Return Statistics</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt35" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text35" class="browse-text"><a onclick="OnClick1('Income Tax Return Statistics','IncomeTaxReturnStatistics.aspx','39');" id="ctl00_ContentPlaceHolder1_linkBrowse35" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse35','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text35" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore35" onclick="GetModuleInfo( 'Income Tax Return Statistics','IncomeTaxReturnStatistics.aspx','39')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore35" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divPanelHead7" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails37" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow37" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo37" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg37" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon37" class="fa fas fa-laptop-medical"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext37" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title37" class="mod-title custom-title">National Family Health Survey</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt37" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text37" class="browse-text"><a onclick="OnClick1('National Family Health Survey','NFHS_Main.aspx','29');" id="ctl00_ContentPlaceHolder1_linkBrowse37" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse37','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text37" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore37" onclick=" GetModuleInfo('National Family Health Survey','NFHS_Main.aspx','29')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore37" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divModDetails39" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow39" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo39" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg39" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon39" class="fa fa-solid fa-city"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext39" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title39" class="mod-title custom-title">Household Social Consumption</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt39" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text39" class="browse-text"><a onclick="OnClick1('Household Social Consumption','HouseholdSocialConsumption.aspx','42');" id="ctl00_ContentPlaceHolder1_linkBrowse39" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse39','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text39" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore39" onclick="GetModuleInfo( 'Household Social Consumption','HouseholdSocialConsumption.aspx','42')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore39" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div><div id="ctl00_ContentPlaceHolder1_divPanelHead8" class="row services"><div id="ctl00_ContentPlaceHolder1_divModDetails41" class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024"><div id="ctl00_ContentPlaceHolder1_divCustomDoubleRow41" class="col-md-12 service custom-double-row-padding"><div id="ctl00_ContentPlaceHolder1_divModInfo41" class="mod-info"><div id="ctl00_ContentPlaceHolder1_divIconBg41" class="icon bg"><i id="ctl00_ContentPlaceHolder1_Icon41" class="fa fa-solid fa-cloud-rain"></i></div><div id="ctl00_ContentPlaceHolder1_divModtext41" class="mod-text"><div id="ctl00_ContentPlaceHolder1_divMod_title41" class="mod-title custom-title">Rainfall Statistics of India</div><div id="ctl00_ContentPlaceHolder1_divbtnTxt41" class="btnTxt"><span id="ctl00_ContentPlaceHolder1_divBrowse_text41" class="browse-text"><a onclick="OnClick1('Rainfall Statistics of India','RainfallStatsIndia.aspx','33');" id="ctl00_ContentPlaceHolder1_linkBrowse41" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$linkBrowse41','')">Browse<i class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span><span id="ctl00_ContentPlaceHolder1_divReadmore_text41" class="readmore-text"><a id="ctl00_ContentPlaceHolder1_linkReadmore41" onclick=" GetModuleInfo('Rainfall Statistics of India','RainfallStatsIndia.aspx','33')" href="#">Read More<i id="ctl00_ContentPlaceHolder1_divIcon_Readmore41" class="fa fa-caret-right" style="margin-left:3px;vertical-align:middle"></i></a></span></div></div></div></div></div></div></article>
+
+        
+          <article id="ctl00_ContentPlaceHolder1_contentModList" class="content moduleDesc" style="display:none">
+              
+              <div class="row services" style="padding-top: 30px">
+                  <div class="col-xs-12 col-md-6 col-lg-6 paddingLeft_1024 ">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          
+                          <div id="ctl00_ContentPlaceHolder1_mod_10" class=" mod-info  ">
+                              <div id="ctl00_ContentPlaceHolder1_mod10" class="icon bg"><i class="fa fa-empire"></i></div>
+                              
+                              <div class="mod-text">
+                                  <div class="mod-title custom-title">
+                                      National Accounts Statistics of India
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse" onclick="return OnClick1('National Accounts Statistics of India','NASTreeview.aspx','10' )">Browse <i class="fa fa-caret-right"></i></a></span>
+
+                                      <span class="readmore-text"><a href="#" id="linkReadmore" onclick="return GetModuleInfo('National Accounts Statistics of India','NASTreeview.aspx','10')">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+
+                          </div>
+                          
+                      </div>
+
+
+                  </div>
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingRight_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_3" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod3" class="icon bg "><i class="fa fa-shopping-cart"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Domestic Product of States of India
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse1" onclick="return OnClick1('Domestic Product of States of India','SDPTreeViewData.aspx','3' )">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore1" onclick="return GetModuleInfo('Domestic Product of States of India','SDPTreeViewData.aspx','3' )">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+              <div class="row services">
+
+
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingLeft_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_5" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod5" class="icon bg"><i class="fa fa-bars"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Price Indices
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse2" onclick="return OnClick1('Price Indices','TypesOfPrices.aspx','5' )">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore2" onclick="return GetModuleInfo('Price Indices','TypesOfPrices.aspx','5' )">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  
+
+                  
+
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingRight_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_4" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod4" class="icon bg"><i class="fa fa-pagelines"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Agricultural Statistics
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse3" onclick="return OnClick1('Agricultural Statistics','Agriculture.aspx','4' )">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore3" onclick="return GetModuleInfo('Agricultural Statistics','Agriculture.aspx','4' )">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+                <div class="row services">
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingLeft_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_11" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod11" class="icon bg"><i class="fa fa-globe"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Annual Survey of Industries
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse4" onclick="return OnClick1('Annual Survey of Industries','TypesOfASIStateWise.aspx','11' )">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore4" onclick="return GetModuleInfo('Annual Survey of Industries','TypesOfASIStateWise.aspx','11' )">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+
+                  
+
+
+
+
+                  
+
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingRight_1024">
+                      <div class="col-md-12 service custom-double-row-padding ">
+                          <div id="ctl00_ContentPlaceHolder1_mod_7" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod7" class="icon bg"><i class="fa fa-industry"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Industrial Production Series
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse5" onclick="return OnClick1('Industrial Production Series','TypesOfIIP.aspx','7' )">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore5" onclick="return GetModuleInfo('Industrial Production Series','TypesOfIIP.aspx','7' )">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="row services">
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingLeft_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_12" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod12" class="icon bg"><i class="fa fa-bar-chart-o"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      External Sector
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse6" onclick="return OnClick1('External Sector','ExternalSectoreTreeview.aspx','12' )">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore6" onclick="return GetModuleInfo('External Sector','ExternalSectoreTreeview.aspx','12' )">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  
+
+
+
+
+
+                  
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingRight_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_1" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod1" class="icon bg"><i class="fa fa-line-chart"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Financial Markets
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse7" onclick="return OnClick1('Financial Markets','TreeViewSecurity.aspx','1')">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore7" onclick="return GetModuleInfo('Financial Markets','TreeViewSecurity.aspx','1')">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+              <div class="row services">
+                  
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingLeft_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_2" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod2" class="icon bg"><i class="fa fa-university"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Banking Statistics (BSR)
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse8" onclick="return OnClick1('Banking Statistics (Basic Statistical Returns (BSR))','TypesOfBSR.aspx','2')">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore8" onclick="return GetModuleInfo('Banking Statistics (Basic Statistical Returns (BSR))','TypesOfBSR.aspx','2')">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+
+                  
+
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingRight_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_13" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod13" class="icon bg"><i class="fa fa-money"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Finances of State Governments in India
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse11" onclick="return OnClick1('Finances of State Governments in India','StateFinanceTreeview.aspx','13')">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore11" onclick="return GetModuleInfo('Finances of State Governments in India','StateFinanceTreeview.aspx','13')">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row services">
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingLeft_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_8" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod8" class="icon bg"><i class="fa fa-inr"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Finances of Government of India
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse10" onclick="return OnClick1('Finances of Government of India','CentralFinanceTreeview.aspx','8')">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore10" onclick="return GetModuleInfo('Finances of Government of India','CentralFinanceTreeview.aspx','8')">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  
+                  
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingRight_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_16" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod16" class="icon bg"><i class="fa fa-shield"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Insurance
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse9" onclick="return OnClick1('Insurance','TypesOfInsurance.aspx','16')">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore9" onclick="return GetModuleInfo('Insurance','TypesOfInsurance.aspx','16')">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="row services">
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingLeft_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_9" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod9" class="icon bg"><i class="fa fa-book"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Combined Government Finances 
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse12" onclick="return OnClick1('Combined Government Finances','CombinedGovtTreeview.aspx','9')">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore12" onclick="return GetModuleInfo('Combined Government Finances','CombinedGovtTreeview.aspx','9')">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  
+                  
+
+                  <div class=" col-xs-12 col-md-6 col-lg-6 paddingRight_1024">
+                      <div class="col-md-12 service custom-double-row-padding">
+                          <div id="ctl00_ContentPlaceHolder1_mod_6" class=" mod-info ">
+                              <div id="ctl00_ContentPlaceHolder1_mod6" class="icon bg"><i class="fa fa-bolt"></i></div>
+                              <div class="mod-text">
+
+                                  <div class="mod-title custom-title">
+                                      Power Sector
+                                  </div>
+                                  <div class="btnTxt">
+                                      <span class="browse-text"><a href="#" id="linkBrowse13" onclick="return OnClick1('Power Sector','PowerSectoreTreeview.aspx','6')">Browse <i class="fa fa-caret-right"></i></a></span>
+                                      <span class="readmore-text"><a href="#" id="linkReadmore13" onclick="return GetModuleInfo('Power Sector','PowerSectoreTreeview.aspx','6')">Read More <i class="fa fa-caret-right"></i></a></span>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+
+              </div>
+              <div class="row services">
+
+                
+
+
+
+                  
+
+                  <div class="col-sm-12 col-md-6 col-lg-6 service">
+                      
+                  </div>
+              </div>
+
+          </article>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 service padding-top-bottom right_width_1024">
+         <div class="jumbotron  wrapper" style="padding-left:20px;padding-right:10px;">
+         
+  
+          <div id="category_head" class="text-left"><h6>National Accounts Statistics of India</h6></div>
+         <hr style="padding:0 0 0 0;margin:10px">
+         <div id="category_details" class="scrollbar" style=""><b>Description: </b><style type="text/css">         .citpl_row {             margin-top:20px;         }           .citpl_row p {             margin-top:10px;              margin-bottom:0px;         }       .jumbotron p {             font-size:14px;         }     </style>   <p><b>This module contains the following 4 sub-modules:</b></p> <ol style="font-weight:bold"> <li>National Accounts Statistics</li> <li>Factor Income</li> <li>Supply-Use Tables</li> <li>Input-Output Transaction Tables</li> </ol> <p style="margin-bottom:5px;"> <b>1. National Accounts Statistics</b> </p> <p> The National Accounts Statistics (NAS) module presents comprehensive sets of data series as per the new series of NAS with 2011-12 as the base year. This section also contains the previous NAS 2004-05 base year series. </p> <p> The 2011-12 base year series is updated from time to time, as and when the latest data series, both annual and quarterly, is released by the National Statistical Office (NSO), Ministry of Statistics and Programme Implementation (MoSPI), Government of India, New Delhi.  </p> <p>The annual series presented here covers every segment of the Indian economy as depicted in the NSO’s `National Accounts Statistics’. Thus, this module covers the following data sets, both at current and constant prices:  </p>  <ol style=""> <li>National Income and other key related macro-economic aggregates (including Price and Quantum indices)</li> <li>Expenditure components of gross domestic product (GDP) at market prices</li> <li>Gross value added (GVA) at basic prices by industry/economic activity</li> <li>Output, intermediate consumption, value added and consumption of fixed capital by institutional sectors</li> <li>Domestic saving by institutional sectors (including household financial savings by assets)</li> <li>Capital formation by institutional sectors and by type of assets and by industry/ economic activity</li> <li>Private final consumption expenditure by item</li> <li>Public sector transactions</li> <li>External Transactions Accounts</li> <li>Sequence of Accounts: Total Economy and by institutional sectors</li> <li>Depreciation as per books of accounts at current prices</li> <li>Key Rates and Ratios such as growth rates of major indicators with share/ percentage/ distribution.</li> <li>Net Value Added at basic prices (previously net domestic product at factor cost) for Rural-Urban break up are provided for different NAS base years starting from the base year 1970-71.</li> <li>Gross value added (formerly GDP) at factor cost by economic activity/industry, which is derived by EPWRF.</li>  </ol>  <p> The Advance Estimates (AE), Provisional Estimates (PE) and successive Revised Estimates (FRE) are given, as they are made available for the respective years. </p>  <p>Additionally, quarterly estimates of GVA at basic prices by economic activity and expenditures of GDP at market prices are presented, both at current and constant prices. For data sources and methodology followed for the new NAS 2011-12 series, see Central Statistics Office, <a href="http://www.epwrfits.in/Changes_in_Methodology_NS_2011_12_%20June_2015.pdf" target="_blank"> Changes in Methodology and Data Sources in the New Series of National Accounts Base Year 2011-12</a>,Ministry of Statistics and Programme Implementation, New Delhi, June 2015. </p>      <div class="row citpl_row"> <div class="col-md-12"> <div style="font-weight:700;">2. Factor Income and Property Income</div>  <div style="font-weight:700; margin-top:5px;">Estimates of Factor Incomes</div> <p> The value of output created out of production process is distributed to labour, capital and intermediate consumption. However, if we exclude the intermediate consumption on both sides, the value added (value of output minus intermediate consumption) is created by two factors of production, namely, labour and capital. These two factors of production have claim to the income generated out of the production process and are accordingly compensated respectively by compensation of employees (CE) and operating surplus (OS) in organized sector, and mixed income (MI) in the case of self-employed/unincorporated enterprises. The distribution of factor income is, thus, basically an allocation of net domestic product (NDP) to these factors of production.  This is vital to understand the distribution of income. </p> <p> The factor income series is available for different institutional sectors (broadly public sector and private sector including private corporate sector) cross classified by industry of origin (such as agriculture, mining &amp; quarrying, manufacturing, etc). </p> <p> The factor income series is available for different institutional sectors (broadly public sector and private sector including private corporate sector) cross classified by industry of origin (such as agriculture, mining &amp; quarrying, manufacturing, etc). </p> </div> </div> <!-- Row 1-->   <div class="row citpl_row"> <div class="col-md-12"> <span style="font-weight:700;">Estimates of Property Incomes </span> <p> In the estimates of factor incomes, the components of property incomes, namely, rent and interest, which are contained in the operating surplus, were shown separately to the extent feasible. To facilitate comparability, separate statements are included presenting the estimates of property incomes and imputed banking charges (IBC) by different institutional sectors (broadly public sector and private sector including private corporate sector) cross classified by industry of origin (such as agriculture, mining &amp; quarrying, manufacturing, etc). </p> <p> Data base for the estimation of property incomes is the same as that for factor incomes spelt out above. However, another important point in this regard is that the rent in the surveys related to rent of commercial building and equipment rented by establishment, and no imputation has been done for owned assets. Further, no separate estimates are available for building. </p> <p> Data are available for 1980-81, 1993-94, 1999-00 and 2004-05 base years. </p> <p> Data are sourced from <i>Factor Income and Property Income Statements</i> published by National Statistical Office (NSO), Ministry of Statistics and Programme Implementation (MoSPI), Government of India, New Delhi. </p> </div> </div> <!-- Row 2-->   <div class="row citpl_row"> <div class="col-md-12"> <div style="font-weight:700;">3. Supply-Use Tables</div> <p> Supply and Use Tables (SUT) play an important role as an integration framework of the national accounts. As a key feature of national accounts, SUT provides the ideal concept for balancing supply and demand, and it is the best framework for compiling gross domestic product (GDP) at current prices. The SUT constitute a complete description of the economy, as it gives detailed information on the production processes, the interdependencies in production, the use of goods and services, and generation of income through production. After balancing, SUT provide coherent data linking output of industries as products and intermediate and final uses of these products. These tables show the structure of the costs of production and the income generated in the production process, the flow of goods and services produced within the national economy and the flows of goods and services with the rest of the world. </p> <p> The SUT framework is that part of the national accounts system which focuses on the production as well as use in an economy. It reflects the production of industries in which intermediate products and primary inputs are required, showing where goods and services are produced and where they are used as intermediate consumption, final consumption, gross capital formation and exports. The most important macroeconomic aggregates such as GDP, components of value added, imports, final consumption, capital formation and exports are obtained within this framework. </p> <p> Data presented in this sub-module is available from 2011-12 onwards. These data are sourced from <i> Supply-Use Tables</i>, published the National Statistical Office (NSO), Ministry of Statistics and Programme Implementation (MoSPI), Government of India, New Delhi. </p> </div> </div> <!-- Row 3-->  <div class="row citpl_row"> <div class="col-md-12"> <div style="font-weight:700;">4. Input-Output Transactions Tables</div> <p>Input-Output Transactions Tables</p> <p> The Central Statistical Organisation (CSO, now National Statistical Office, NSO) has brought out the IOTTs for the reference years 1968-69, 1973-74, 1978-79, 1983-84, 1989-90, 1993-94, 1998-99, 2003-04 and 2007-08, and these IOTTs are systematically arranged and presented in this sub-module. The CSO had been preparing the IOTTs for the Indian economy every five years by using the same methodology so that comparable information system may develop over the years for studying the input structures and final demand pattern. </p> <p> The number of matrices and sectors covered in the IOTT had increased over the reference years so as to reflect the changing structure of the economy. For instance, the latest IOTT (2007-08) has seven matrices presented at 130 X 130 sectoral classification, as against the earlier IOTT (1993-94) with eight matrices covering 115 sectors and IOTT (1973-74) that had only one matrix in the aggregated 60 sectors form. Since the number of matrices and sectors varied from one reference year to another, these IOTTs are presented as standalone tables in MS-Excel sheet format. </p> <p> Data for this sub-module were collected from the Input-Output Transactions Table (IOTT) for different reference years, published Central Statistical Organisation (CSO, now National Statistical Office, NSO), Ministry of Statistics and Programme Implementation (MoSPI), Government of India, New Delhi. </p> </div> </div> <!-- Row 4--></div>
+        
+             
+         </div>
+            
+            <a id="ctl00_ContentPlaceHolder1_btnSubmit" class="btn btn-primary btn-sm" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$btnSubmit','')" style="width:126px;display:none;"> Submit &nbsp;<i class="fa fa-play"></i> </a>
+              </div>
+          
+
+
+
+<link rel="stylesheet" href="styles/premiere_violet/obout_treeview2.css">
+<script type="text/javascript" language="JavaScript">var ob_tree_id="tree1";verdadero=true;falso=false;wahr=true;falsch=false;vrai=true;faux=false;var ob_icons="icons";var ob_style="styles/premiere_violet";ob_select_on_collapse=true;ob_tree_dnd_enable=false;ob_tree_editnode_enable=false;ob_tree_keynav_enable=false;ob_tree_multiselect_enable=false;ob_expand_single=false;ob_t2_showicons=true;</script><script language="JavaScript" type="text/javascript" src="tree2/script/ob_tree_2040.js"></script><script language="JavaScript" type="text/javascript" src="tree2/script/ob_events_2040.js"></script>
+<div id="tree1" class="ob_tree" style="overflow:visible;"><div class="ob_di2"><div class="ob_d2b"><table class="ob_t2b" cellspacing="0" style="display:none;"><tbody><tr><td class="ob_t8" style="display:none;"><img alt="" src="http://placehold.it/0x0"></td><td class="ob_t4"><div class="ob_d4"><img alt="" src="http://placehold.it/0x0"></div></td><td id="root_tree1" onclick="ob_t22(this, event)" class="ob_t2" valign="middle"></td></tr></tbody></table></div></div></div><script type="text/javascript" language="JavaScript">var ob_noedit='';ob_KeepLastExpanded=0;ob_KeepLastCollapsed=0;var sNoSelect='';var ob_eventFlags={"OnSomeEvent":true};function getStyle(oElm,strCssRule){var strValue="";if(document.defaultView && document.defaultView.getComputedStyle){strValue=document.defaultView.getComputedStyle(oElm,"").getPropertyValue(strCssRule);}else if(oElm.currentStyle){try{strCssRule=strCssRule.replace(/\-(\w)/g, function (strMatch,p1){return p1.toUpperCase();});strValue=oElm.currentStyle[strCssRule];}catch(ex){}}return strValue;};function ob_RootNode(){var rt=document.getElementById(ob_tree_id).firstChild.firstChild.firstChild;var ct=rt.nextSibling;if(ct==null){return;}var c=ct.firstChild.firstChild.firstChild;var it=rt.firstChild.firstChild.firstChild;var sIS="";var sRS="";try{sIS=getStyle(it,"display");}catch(ex){sIS="none";}try{sRS=getStyle(rt,"display");}catch(ex){sRS="none";} if(ct!=null&&(sRS=="none"||sIS=="none")){ if(navigator.userAgent.toLowerCase().indexOf("firefox")==-1) {c.style.display="none";}else{c.style.width="1px";c.firstChild.style.display="none";}}}ob_RootNode();function ob_initTree(i){if((typeof(ob_tree_js_version)=="undefined")||(ob_tree_js_version!="2040")){if(i<30){window.setTimeout("ob_initTree("+(i+1)+")",900);}else{if(confirm("ASP.NET Treeview version 2.0.40\n \nClick OK to generate correct paths.\nTreeview will work fine with correct paths.\n")){window.location="http://www.obout.com/t2/ht_Path.aspx";}}return;}else{ob_t26("");}}ob_initTree(0);</script>
+
+
+
+
+
+    </div>
+    <input name="ctl00$ContentPlaceHolder1$hdVarModName" type="hidden" id="ctl00_ContentPlaceHolder1_hdVarModName" value="National Accounts Statistics of India">
+    <input name="ctl00$ContentPlaceHolder1$hdModuleAccess" type="hidden" id="ctl00_ContentPlaceHolder1_hdModuleAccess">
+    <input name="ctl00$ContentPlaceHolder1$hdScreenWidth" type="hidden" id="ctl00_ContentPlaceHolder1_hdScreenWidth" value="1536">
+    <script type="text/javascript">
+
+        var clickCount = 0;
+        var timeoutID = 0;
+        var sPagename;
+       
+        function OnClick1(modName, pagename, id) {
+             //debugger;
+            // alert("test");
+            
+            document.getElementById('ctl00_ContentPlaceHolder1_hdScreenWidth').value = screen.width;
+            sPagename = "";
+            sPagename = pagename;
+            document.getElementById('ctl00_ContentPlaceHolder1_hdVarModName').value = modName;
+
+            document.getElementById('ctl00_ContentPlaceHolder1_hdModuleAccess').value ="True"
+            return true;
+
+        //   EpwWebService.setModSession(id, modName,resultModId)
+                  
+        }
+
+        function resultModId(res, event) {
+            if (res) {
+                // alert(res);
+                //alert("test1");
+                window.location = sPagename;
+            }
+        }
+
+        function getMyUrl(sServerName, sServerPort) {
+            var Url;
+            if (sServerPort == "80") {
+                Url = "http://" + sServerName + ":" + sServerPort;
+
+            }
+            else {
+
+                Url = "http://" + sServerName + ":" + sServerPort;
+
+            }
+
+            return Url;
+        }
+
+        function pageLoad() {
+          // debugger
+           document.getElementById('ctl00_ContentPlaceHolder1_hdScreenWidth').value = screen.width;
+            document.getElementById('ctl00_ContentPlaceHolder1_hdVarModName').value = "National Accounts Statistics of India";
+            EpwWebService.GetModuleInfo("National Accounts Statistics of India", resultHead);
+        }
+
+        function GetModuleInfo(modName)
+        {
+           // debugger;
+            document.getElementById('ctl00_ContentPlaceHolder1_hdVarModName').value = modName
+            EpwWebService.GetModuleInfo(modName, resultHead);
+            
+        }
+
+        function resultHead(res, event) {
+            if (res) {
+               // debugger;
+                sHead = res.split("|");
+                document.getElementById("category_head").innerHTML ="<h6>"+ sHead[0] +"</h6>";
+                //document.getElementById("ctl00_ContentPlaceHolder1_category_details").innerHTML = sInformation ;
+                document.getElementById("category_details").innerHTML = "<b>Description: </b>" + sHead[1] ;
+              //  document.getElementById("category_details").style.border = "#636363 1px solid";
+               // document.getElementById("category_details").style.padding = "8px";
+                return false;
+            }
+
+        }
+        function ob_OnNodeSelect(id) {
+         debugger;
+            //alert(id);
+            //alert(ob_t2_Data[id].ModuleId)
+            //alert(ob_t2_Data[id].PageName)
+          var ModInfo = id.split("_", 3);
+
+          if (ModInfo.length > 1) {
+              var nodeId;
+              var sModId;
+              var sLoadvar;
+
+              if (ModInfo[2] == 7) {
+                  var modInfo_iip =id.split("_",4)
+                  nodeId = modInfo_iip[1];
+                  sModId = modInfo_iip[2];
+                  sLoadvar = modInfo_iip[3];
+
+              } else {
+               nodeId = ModInfo[0];
+               sModId = ModInfo[1];
+               sLoadvar = ModInfo[2];
+              }
+
+
+              var sModLen = sLoadvar.length + 1;
+              var sModIndex = id.indexOf(sLoadvar)
+              var sPageName = id.substring(sModLen + sModIndex);
+              
+              if (sLoadvar == "True") {
+
+                  if (sModId == 15) {
+                      var PageUrl = sPageName.replace("-", "?ModuleName=") + "&SearchNode=" + nodeId;
+                  } else {
+
+                      var splPageSubMod = sPageName.split(".aspx_")
+                      if( splPageSubMod.length > 1)
+                      {
+                          sPageName = splPageSubMod[0] + ".aspx?id=" + splPageSubMod[1];
+                            var PageUrl = sPageName + "&SearchNode=" + nodeId ;
+                      }
+                      else {
+                           var PageUrl = sPageName + "?SearchNode=" + nodeId;
+                      }
+                     
+                  }
+                  
+                  // var sPageName = ModInfo[2];
+                  EpwWebService.setDemoUser(sModId);
+                  window.open(PageUrl, '_blank');
+              }
+          }
+            // window.location = sPageName;
+
+
+        }
+
+
+        //function OnClick(modName, pagename, id) {
+        //    clickCount++;
+        //    debugger;
+        //    if (clickCount >= 2) {
+        //        clickCount = 0;          //reset clickCount
+        //        clearTimeout(timeoutID); //stop the single click callback from being called
+        //        // DoubleClickFunction();   //perform your double click action
+
+        //        EpwWebService.setModSession(id, modName)
+
+        //        window.location = pagename;
+
+        //        // return true;
+
+        //    }
+        //    else if (clickCount == 1) {
+        //        //create a catllback that will be called in a few miliseconds
+        //        //the callback time determines how long the user has to click a second time
+
+        //        var callBack = function () {
+        //            //make sure this wasn't fired at
+        //            //the same time they double clicked
+        //            if (clickCount == 1) {
+        //                clickCount = 0;         //reset the clickCount
+        //                // SingleClickFunction();  //perform your single click action
+        //                GetModuleInfo(modName);
+        //                //return false;
+        //            }
+        //        };
+
+        //        //This will call the callBack function in 500 milliseconds (1/2 second).
+        //        //If by that time they haven't clicked the LinkButton again
+        //        //We will perform the single click action. You can adjust the
+        //        //Time here to control how quickly the user has to double click.
+        //        timeoutID = setTimeout(callBack, 500);
+        //    }
+        //}
+    </script>
+    
+
+    
+   
+      
+ <!-- </div> .container -->
+</section><!-- #main -->
+
+</div><!-- .page-box-content -->
+</div><!-- .page-box -->
+         
+   
+     
+  
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+    
+<footer id="footer" class="footer">
+    
+  
+<div class="footer-bottom">
+
+    
+
+    <div class="container-fluid">
+      <div class="row">
+          
+
+          <div class="col-xxs col-xs-6 col-sm-6 col-md-6 col-lg-6  text-left text-small">
+		         Site Hosted &amp; Developed By <a href="http://www.cybersitesindia.com" target="_blank">Cybersites India Technologies Pvt. Ltd.</a>
+		</div>
+        <div class="col-xxs col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right text-small custom-small-align">
+		  Copyright 2009 © EPW Research Foundation (EPWRF) <br>
+             <a href="#" class="up">
+			<span class="glyphicon glyphicon-arrow-up"></span>
+		  </a>
+		</div>
+       
+      </div>
+    </div>
+  </div><!-- .footer-bottom -->
+    
+</footer>
+    <div class="clearfix"></div>
+
+
+    
+
+
+ 
+    <script type="text/javascript">
+        //jQuery(document).ready(function () {
+        //    var docHeight = jQuery(window).height();
+        //    var contentHeight = JQuery("#ContentPlaceHolder1").height();
+        //    var footerHeight = jQuery('#footer').height();
+        //    var footerTop = contentHeight + footerHeight;
+
+        //    // if (footerTop < docHeight) {
+        //    jQuery('#footer').css('margin-top', footerTop + 'px');
+        //    //}
+        //});
+    </script>
+
+  
+
+
+    <script src="js/bootstrapValidator.min.js"></script>
+ <script src="js/main.js"></script>
+    <script type="text/javascript">
+       
+
+        $(document).ready(function () {
+
+           
+
+
+            // var docHeight = jQuery(window).innerHeight();
+            docHeight = 545;
+            // if (footerTop < docHeight) {
+            jQuery('#MainContainer').css('height', docHeight + 'px');
+            //}
+          
+            var loc = window.location.href;
+            var filename = loc.substring(loc.lastIndexOf('/') + 1, loc.length); // THIS WILL GIVE U D CURRENT PAGE NAME
+            document.getElementById("ctl00_hdPageName").value = filename;
+            //alert(filename);         //   <=== This will give you your current Page Name
+            if (filename.toLowerCase() == "main_screen.aspx?userfeedback=true" || filename.toLowerCase() == "main_screen.aspx" || filename.toLowerCase() == "cpi_main_screen1.aspx" || filename.toLowerCase() == "edituseraccount.aspx" || filename.toLowerCase() == "usertransactiondetails.aspx" || filename.toLowerCase() == "refilltopup.aspx" || filename.toLowerCase() == "typesofprices.aspx" || filename.toLowerCase() == "typesofnas.aspx" || filename.toLowerCase() == "moduleusagereport.aspx" || filename.toLowerCase() == " userinvoice.aspx" ||  filename.toLowerCase() == "support.aspx?innermastpage=true" || filename.toLowerCase() == "howtouse_new.aspx?innermastpage=true") {
+                jQuery('#loadSavedQry').hide();
+            }
+
+            if (filename == "HealthStatewise.aspx?ModuleName=Demography" || filename == "HealthStatewise.aspx?ModuleName=HealthStatusIndicators" || filename == "HealthStatewise.aspx?ModuleName=HealthEducationFacilities" || filename == "HealthStatewise.aspx?ModuleName=HumanResources" || filename == "HealthStatewise.aspx?ModuleName=HealthInfrastructure" || filename == "HealthStatewise.aspx?ModuleName=HealthFinance") {
+
+                if (filename == "HealthStatewise.aspx?ModuleName=Demography") {
+                    jQuery("#ctl00_Demography").removeClass("healthLnk").addClass("healthLnk active1");
+                    jQuery("#ctl00_Status").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_education").removeClass("healthLnk active1").addClass("healthLnk")
+                    jQuery("#ctl00_HumanResources").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Infrastructure").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Finance").removeClass("healthLnk active1").addClass("healthLnk");
+
+
+                } else if (filename == "HealthStatewise.aspx?ModuleName=HealthStatusIndicators") {
+                    jQuery("#ctl00_Demography").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Status").removeClass("healthLnk").addClass("healthLnk active1");
+                    jQuery("#ctl00_education").removeClass("healthLnk active1").addClass("healthLnk")
+                    jQuery("#ctl00_HumanResources").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Infrastructure").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Finance").removeClass("healthLnk active1").addClass("healthLnk");
+
+                } else if (filename == "HealthStatewise.aspx?ModuleName=HealthEducationFacilities") {
+
+                    jQuery("#ctl00_Demography").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Status").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_education").removeClass("healthLnk").addClass("healthLnk active1")
+                    jQuery("#ctl00_HumanResources").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Infrastructure").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Finance").removeClass("healthLnk active1").addClass("healthLnk");
+
+                } else if (filename == "HealthStatewise.aspx?ModuleName=HumanResources") {
+
+                    jQuery("#ctl00_Demography").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Status").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_HumanResources").removeClass("healthLnk").addClass("healthLnk active1")
+                    jQuery("#ctl00_education").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Infrastructure").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Finance").removeClass("healthLnk active1").addClass("healthLnk");
+
+                } else if (filename == "HealthStatewise.aspx?ModuleName=HealthInfrastructure") {
+                    jQuery("#ctl00_Demography").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Status").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Infrastructure").removeClass("healthLnk").addClass("healthLnk active1")
+                    jQuery("#ctl00_education").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_HumanResources").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Finance").removeClass("healthLnk active1").addClass("healthLnk");
+
+                } else if (filename == "HealthStatewise.aspx?ModuleName=HealthFinance") {
+                    jQuery("#ctl00_Demography").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Status").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Finance").removeClass("healthLnk").addClass("healthLnk active1")
+                    jQuery("#ctl00_education").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_HumanResources").removeClass("healthLnk active1").addClass("healthLnk");
+                    jQuery("#ctl00_Infrastructure").removeClass("healthLnk active1").addClass("healthLnk");
+
+                }
+
+
+                //jQuery('#ctl00_divHealthLink').show();
+                jQuery('#ctl00_HealthLink').show();
+                
+            } else {
+                //  jQuery('#ctl00_divHealthLink').hide();
+                jQuery('#ctl00_HealthLink').hide();
+            }
+
+          
+            //var url = window.location.pathname;
+            //var substr = url.split('/');
+            //var urlaspx = substr[substr.length - 1];
+            //jQuery('#HealthLink ul li a').find('.active1').removeClass('active1');
+            //jQuery('#HealthLink ul li a').each(function () {
+            //    if (this.href.indexOf(urlaspx) >= 0) {
+            //        jQuery(this).parent().addClass('active1');
+            //    }
+            //});
+
+            //$("#HealthLink li a").hover(function () {
+            //    $(this).toggleClass("active1");
+            //    //$(this).css({ "margin-left": "5px" });
+            //    //    //  $(this).css({ "border-bottom": "0" });
+
+            //});
+
+            $("#ctl00_HealthLink li a").hover(function () {
+                $(this).toggleClass("healthLnk active1");
+                //$(this).css({ "margin-left": "5px" });
+                //$(this).css({ "border-bottom": "0" });
+
+            });
+
+
+
+
+
+
+        });
+
+       
+        function SelectAll() {
+         //   debugger;
+            var chkSelectAll = document.getElementById("ctl00_chkSelectAll");
+
+            var CHK = document.getElementById("ctl00_chkModuleList");
+            var checkbox = CHK.getElementsByTagName("input");
+            if (chkSelectAll.checked == true) {
+                for (var i = 0; i < checkbox.length; i++) {
+                    checkbox[i].checked = true;
+
+                }
+            }
+            else {
+                for (var i = 0; i < checkbox.length; i++) {
+                    checkbox[i].checked = false;
+                  }
+            }
+        }
+
+        function onTextSearchText() {
+            //debugger;
+            var chkModList = "";
+            //var chkModList = document.getElementById("ctl00_chkModuleList");
+             var CHK = document.getElementById("ctl00_chkModuleList");
+            var checkbox = CHK.getElementsByTagName("input");
+            var checkboxValue = CHK.getElementsByTagName("span");
+            for (var i = 0; i < checkbox.length; i++) {
+                if (checkbox[i].checked) {
+                    chkModList = chkModList + checkboxValue[i].attributes["JSvalue"].value + "|";
+                    //alert(checkboxValue[i].attributes["JSvalue"].value);
+
+                }
+            }
+
+            var chkExactSearch = document.getElementById("ctl00_chkExactSearch");
+            var chkEaxctText =""
+            if (chkExactSearch.checked == true) {
+                chkEaxctText="True"
+            } else {
+                chkEaxctText = "False"
+            }
+            
+            document.getElementById("ctl00_divAllModuleSearchTree").innerHTML = "";
+          //  var txtSearch = document.getElementById("ctl00_txtSearch").value;
+            //$('#Modal_All_Search').modal('hide')
+            var spltModId = chkModList.split("|");
+
+            var txtSearch = document.getElementById("ctl00_txtAllModSearch").value;
+            if (txtSearch != "") { 
+                for (i = 0; i < spltModId.length-1; i++) {
+                    if (spltModId[i] != "") {
+                        EpwWebService.Get_All_Module_Search(txtSearch, spltModId[i],chkEaxctText, resultData)
+                    }
+                
+                }
+            }
+        }
+        function resultData(res, event) {
+            //debugger;
+            $('#Modal_All_Search').on('hidden.bs.modal', function (e) {
+                location.reload();
+                $('#Modal_All_Search').show();
+            })
+
+            if (res) {
+                document.getElementById("ctl00_divAllModuleSearchTree").innerHTML =  document.getElementById("ctl00_divAllModuleSearchTree").innerHTML+ res;
+            }
+            //$('#Modal_All_Search').modal('show');
+           
+        }
+
+        
+       
+    </script>
+
+
+
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;callback=initialize"></script></body></html>

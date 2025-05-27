@@ -1,0 +1,544 @@
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="prime-favicon.ico">
+<title>PRIMEINFOBASE | Corporate Information Database</title>
+
+<link href="css/master.css?vrz=1.5" type="text/css" rel="stylesheet" media="all">
+<link href="css/style1.css?vrz=1.9" type="text/css" rel="stylesheet" media="all">
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="js/jquery-1.9.1.js?vrz=1.1"></script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/html5print.js?vrz=1.1"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/main.js?vrz=1.1"></script>
+<script type="text/javascript" src="js/Maskdiv.js?vrz=1.1"></script>
+<script type="text/javascript">
+    function openwindow(addr, windo, param) {
+        window.open(addr, windo, param);
+    }
+</script>
+
+<script type="text/javascript">
+    var clicked = false;
+    function CheckBrowser() {
+        alert("asdas");
+        if (clicked == false) {
+            //Browser closed   
+        } else {
+            //redirected
+            clicked = false;
+        }
+    }
+    function bodyUnload() {
+        if (clicked == false)//browser is closed  
+        {
+            var request = GetRequest();
+            request.open("GET", "../LogOut.aspx", true);
+            request.send();
+        }
+    }
+    function GetRequest() {
+        var xmlHttp = null;
+        try {
+            // Firefox, Opera 8.0+, Safari
+            xmlHttp = new XMLHttpRequest();
+        }
+        catch (e) {
+            //Internet Explorer
+            try {
+                xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+        }
+        return xmlHttp;
+    }
+</script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-51669340-1', 'nseinfobase.com');
+    ga('send', 'pageview');
+</script>
+
+<script src="js/jquery.rotate.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#slideImg").rotate();
+        });
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        function do_slide() {
+            interval = setInterval(function () {
+                moveRight();
+            }, 1500);
+        }
+        do_slide();
+        $('ul li').hover(function () {
+            clearInterval(interval);
+        });
+        $('ul li').mouseleave(function () {
+            do_slide();
+        });
+        var slideCount = $('#oob_sli ul li').length;
+        var slideWidth = $('#oob_sli ul li').width();
+        var slideHeight = $('#oob_sli ul li').height();
+        var sliderUlWidth = slideCount * slideWidth;
+
+        $('#oob_sli').css({ width: 690, height: 100 });
+
+        $('#oob_sli ul').css({ width: 905, marginLeft: -245 });
+
+        $('#oob_sli ul li:last-child').prependTo('#oob_sli ul');
+
+        function moveLeft() {
+            $('#oob_sli ul').animate({
+                left: +slideWidth
+            }, 700, function () {
+                $('#oob_sli ul li:last-child').prependTo('#oob_sli ul');
+                $('#oob_sli ul').css('left', '');
+            });
+        };
+
+        function moveRight() {
+            $('#oob_sli ul').animate({
+                left: -slideWidth
+            }, 700, function () {
+                $('#oob_sli ul li:first-child').appendTo('#oob_sli ul');
+                $('#oob_sli ul').css('left', '');
+            });
+        };
+
+    });
+</script>
+
+<style type="text/css">
+  #slideImg { margin-left:0px; padding: 0px 20px; position: relative;}
+  #slideImg ul { list-style: none; margin-bottom: 0px;margin-top: 25px; padding-left:0px; margin-bottom:5px;}
+  #slideImg li {float: left; margin: 0 12px;}
+  /*img { vertical-align: bottom; }*/
+  .rotate-prev { position: absolute; }
+  .database_coverage_fig {text-align: left; padding: 0px 8px 0px 0px; font-weight:bold}
+</style>
+
+
+<link href="css/innerpage.css" type="text/css" rel="stylesheet" media="all">
+<script type="text/javascript" src="js/lightbox.js"></script>
+<link href="css/lightbox.css" rel="stylesheet" type="text/css">  
+
+<script>
+$(document).ready(function(e) {
+	$('a[href="myaccount.aspx"]').addClass('active');
+	$('.myaccount ul li a').each(function(index, element) {
+        $(this).addClass('link'+index);
+    });
+
+});
+
+function msg() {
+
+    alert("popup");
+}
+
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".myaccount > a.btn-link").click(function (e) {
+            $("#dialog12").show();
+        });
+        $(".cls-lightbox").click(function (e) {
+            $("#dialog12").hide();
+            $(".overlay").hide();
+        })
+    });
+</script>
+
+<style type="text/css">
+
+.loginwindow {
+    color: #a90329 !important;
+    padding: 2px 10px;
+    width: 100%;
+    float: left;
+    clear: both;
+    font-size: 13px;
+    vertical-align: middle;
+    background: #e0e0e0 !important;
+    border: 1px solid #d6d6d6;
+    transition: background-color 1s ease;
+}
+
+.loginwindow:hover {
+    color: #a90329  !important; 
+}
+
+
+
+/*.myaccount ul li a.link9{background: #424240; color:#fff;}
+.myaccount ul li a.link15{background: #424240; color:#fff;}*/
+
+</style>
+
+
+</head>
+<body onunload="bodyUnload();" onclick="clicked=true;">
+<form method="post" action="./myaccount.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUIMTQzODU1MjYPZBYCZg9kFgICBA9kFgYCAw9kFgQCAQ8WAh4HVmlzaWJsZWdkAgMPFgIfAGdkAgUPZBYMZg8WAh8AZ2QCAQ8PFgQeBFRleHQFxAM8YSBocmVmID0gJ25vYWNjZXNzLmFzcHgnICBjbGFzcz0nbG9naW53aW5kb3cgbGlnaHRib3gnIHJlbD0nY29udGVudC1wYWdlMyc+PGRpdiBjbGFzcz0ndG9vbHRpcCc+QWxsLWluLTEgU2hhcmVob2xkZXJzPHNwYW4gY2xhc3M9J3Rvb2x0aXB0ZXh0Jz5UaGlzIGlzIGEgZGFpbHkgdXBkYXRlZCBkYXRhYmFzZSBjYXB0dXJpbmcgYWxsIGZpbGluZ3MgbWFkZSB1bmRlciBJbnNpZGVyICYgVGFrZW92ZXIgUmVndWxhdGlvbnMgKGluY2x1ZGluZyBmaWxpbmdzIHJlbGF0aW5nIHRvIGludm9jYXRpb24gb2Ygc2hhcmVzKSBhcyBhbHNvIGRhdGEgZmlsZWQgdW5kZXIgQnVsayBhbmQgQmxvY2sgRGVhbHMsIGluIHF1YXJ0ZXJseSBTaGFyZWhvbGRpbmcgUGF0dGVybnMgYXMgYWxzbyBtb250aGx5IHBvcnRmb2xpbyBkaXNjbG9zdXJlcyBtYWRlIGJ5IE11dHVhbCBGdW5kcy48L3NwYW4+PC9kaXY+PC9hPh8AZ2RkAgIPDxYEHwEF1wM8YSAgaHJlZiA9ICdub2FjY2Vzcy5hc3B4JyAgY2xhc3M9J2xvZ2lud2luZG93IGxpZ2h0Ym94JyByZWw9J2NvbnRlbnQtcGFnZTMnPjxkaXYgY2xhc3M9J3Rvb2x0aXAnPkNvcnBvcmF0ZSBFdmVudHMgQ2FsZW5kYXI8c3BhbiBjbGFzcz0ndG9vbHRpcHRleHQnPkEgY29tcHJlaGVuc2l2ZSBldmVudCBjYWxlbmRhciBjb3ZlcmluZyBhbGwgcGFzdCBhbmQgZm9ydGhjb21pbmcgQUdNcy9FR01zLCBCb2FyZCBNZWV0aW5ncywgQm9uZGhvbGRlcnMgTWVldGluZ3MsIENvcnBvcmF0ZSBBY3Rpb25zLCBDb3VydCBDb252ZW5lZCBNZWV0aW5ncywgSW52ZXN0b3IvQW5hbHlzdCBNZWV0cyBhbmQgUG9zdGFsIEJhbGxvdHMgYWxvbmcgd2l0aCBkZXRhaWxlZCBhZ2VuZGEsIHVuZGVyIG9uZSByb29mLCBmb3IgYWxsIGNvbXBhbmllcy4gVGhpcyBkYXRhYmFzZSBpcyB1cGRhdGVkIG9uIGEgZGFpbHkgYmFzaXMuPC9zcGFuPjwvZGl2PjwvYT4fAGdkZAIDDxYCHwBnZAIEDw8WBB8BBc4DPGEgaHJlZiA9ICdub2FjY2Vzcy5hc3B4JyAgY2xhc3M9J2xvZ2lud2luZG93IGxpZ2h0Ym94JyByZWw9J2NvbnRlbnQtcGFnZTMnID48ZGl2IGNsYXNzPSd0b29sdGlwJz5QZXJzb24td2lzZSBNb2R1bGU8c3BhbiBjbGFzcz0ndG9vbHRpcHRleHQnPlNlYXJjaCBieSBhbnkgaW5kaXZpZHVhbOKAmXMgbmFtZSB0byBpbnN0YW50bHkgdmlldyBoaXMvaGVyIHByb2ZpbGUsIHByZXNlbnQgYW5kIHBhc3QgZGlyZWN0b3JzaGlwcywgcmVtdW5lcmF0aW9uLCBjb25uZWN0aXZpdHkgd2l0aCBvdGhlciBkaXJlY3RvcnMsIGluc2lkZXIgdHJhZGluZywgc2hhcmUgcGxlZGdpbmcgYW5kIHNoYXJlaG9sZGluZyBhY3Jvc3MgYWxsIGNvbXBhbmllcyBhdCBhIHNpbmdsZSBwbGFjZSAobWFkZSBwb3NzaWJsZSBkdWUgdG8gZXh0ZW5zaXZlIG5hbWUgY2xlYW5pbmcvdW5pcXVpbmcgZXhlcmNpc2UpLjwvc3Bhbj48L2Rpdj48L2E+HwBnZGQCBQ8PFgQfAQXBAjxhIHRhcmdldD0nX2JsYW5rJyBocmVmPSdodHRwczovL3d3dy5wcmltZWluZm9iYXNlLmNvbS9wcm9kdWN0aXIvcGFnZXMvSGFuZGxlcjEuYXNoeD90b2tlbj1qNDFXSmd6Q1BWRTJvVGpFUWZudFdnPT0mcm5kbT0zcUZIYU5jRzVQVmxFaEtNOElPMnN3PT0nPjxkaXYgY2xhc3M9J3Rvb2x0aXAnPkNvbXBhbnktd2lzZSBNb2R1bGU8c3BhbiBjbGFzcz0ndG9vbHRpcHRleHQnPlNlYXJjaCBieSBhbnkgY29tcGFueeKAmXMgbmFtZSB0byBpbnN0YW50bHkgdmlldyBkYXRhIGZyb20gYWxsIGRhdGFiYXNlcyBhdCBhIHNpbmdsZSBwbGFjZS48L3NwYW4+PC9kaXY+PC9hPh8AZ2RkAgcPZBYCAgEPDxYCHwBoZGRk5oqn50eP7mbpMH0aZ0xzZGfUAE0lkX8spNzvGQBvcY4=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=I9gR03Iaex68HT3SSk3GK5IOR5sxrrnuOgTmG9I6ykMcGPT7Y6E8ude7BHZ6-P7sYrnY72iiq7oWkp10q6zH8tdDxWL1IFoFi_UaPO6KVlw1&amp;t=637454266939909757" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=2DKbqDeKoz4wQNUtGaLWVc8hWz9LLyYmpjFN0zwGFL4lNRfeaXOJJrhlKNDZovtr9PA_jOKQdc8LEtJLrxgjY6tPoaNr7j3vJHvryG78g4hCQoVqJKW7TXjyBQGLmBchSqCxbPXja6DSRZIC89IdMW0bNfR63G_tDaKMEBw1VLI1&amp;t=fffffffff6474071" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=DtS0BrPmNFrFs5kSPCdWFvp8RY0udmUb9SLG6CpoBHOTvF222erQa1bQ9QYWquK_HOQn6HuFoJ800HcUdSn_R7EEM9r_Hb6MGWUWMoaOze0lXqviwXXiKnkI5iUl-VrF0bkbkDXdSGT3k3K1nDq9zmlkmLRXmb-ct3dzI26B4_IXbss-pmYMW7nATiHmEqYy0&amp;t=2fe674eb" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=aXk17exfTQgDzzfgP_YSX-Fy7_0s9RbB-KpvIT0x7UJDhgMR80CJwkpJcdXKHIoNnXQgmuRr0yM0FnyYQ8NTQtmtDq5bEC0t4Zjwgu22ClEbxpppKoac8SzqqMyeW95H3V7mc8eO0EgvuIWO9cOHX0A79Dk7MJKfh8YbPgQ3iHlP7MUrlsdqIX0USpwn88eZ0&amp;t=2fe674eb" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="04595DA2">
+</div>
+
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$scpr', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <div class="container-add"><div class="container">
+    
+
+<style>
+    
+    @media only screen and (max-width: 480px){
+        .logo span{ margin-left:0px !important; }
+    }
+    
+   /* banner add css start */   
+  /*.ban_pics {padding:0; margin:0; overflow: hidden }
+  .ban_pics a{left:0px !important;}
+  .ban_pics a img {top:0; left:0; width:100%; height:75px; width:240px; }
+  .ban_sponsors {font-size: 13px;font-weight: 700;color: #417ca4;text-transform: uppercase;}.ban_sponsors div {margin: 51px 0 0px;height: 84px;
+  overflow: hidden;position: relative;}
+  #fade.pics a {width: 240px;height: 75px;}*/
+  /* banner add css end */
+  
+  
+  a.acuite {text-align:center; width:100%; display:inline-block; margin:34px 0px;}
+  a.acuite img { width:100%; border:#e7e7e7 solid 1px; }
+    
+</style>
+<script type="text/javascript" src="js/jquery.cycle.js?vzr=1.2"></script>
+<script type="text/javascript">
+    $('#ban_fade').cycle();
+</script>
+
+<header id="header">
+<div class="header">
+<div class="col-sm-5 col-xs-5 col-xxs-12 logo">
+<a href="index.aspx"><img src="images/prime-infobase.png?vrz=1.6" alt="prime-infobase" class="img-responsive"></a>
+<span class="text-nowrap" style="font-style:italic;">Unmatched quality and accurate information on listed corporates</span>
+<!--<div class="taglines">Unmatched quality and accurate <br>information on listed corporates</div>-->
+</div>
+
+
+
+<div class="col-sm-4 col-xs-4 col-xxs-12 pull-right order_change">
+
+  <!--<div class="develop_text" style="margin-top:10px;">
+        <p>Developed & Powered by</p>
+    </div>-->
+
+    
+
+
+
+<div class="develop_logo">
+    <a href="http://primedatabasegroup.com/" target="_blank"><img src="images/develop-logo3.jpg?vrz=1.2" alt="Develop Logo"></a>
+</div>
+
+</div>
+
+
+<div class="col-sm-3 col-xs-3 col-xxs-12 pull-right">
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+<nav class="navbar">
+<ul>
+<li><a href="index.aspx" class="home"><img src="images/home.png" alt="home"></a></li>
+<li><a href="product-listing.aspx">Products</a></li>
+<li><a href="advertise.aspx">Advertise</a></li>
+<li><a href="contanct-us.aspx">Contact</a></li>
+<li><a href="newsroom.aspx">Newsroom</a></li>
+</ul>
+<ul class="pull-right">
+<li id="uclheader1_myaccount" class="login"><a href="myaccount.aspx" id="A2" class="active">My Account</a></li>
+<li id="uclheader1_btnlogout" class="login">
+<a href="index.aspx?token=j41WJgzCPVE2oTjEQfntWg==&amp;logout=logout" id="A1">Logout</a>
+</li>
+</ul>
+</nav>
+</header>
+    <div class="body-wrapper">
+    
+
+
+
+<div class="col-xs-9 col-xxs-12">
+<div class="inner-content sidebar2 row">
+<h1 class="title">Subscribers ZONE</h1>
+<div class="myaccount" style="padding-bottom:20px;">
+
+<h3>Welcome <span class="name-hightlight">Ahmedabad University, User</span></h3>
+
+<p>You are now in the Subscribers zone.<br><span style="font-size:14px; font-weight:bold; font-style:italic;">The highlighted databases are a part of your current subscription. You can click on the same to access. If you wish to subscribe to the other databases, please call or email us.</span> </p>
+
+
+<ul class="pull-left" "="">
+  <li><a href="noaccess.aspx" class="loginwindow lightbox link0" rel="content-page3">Insiders</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link1" rel="content-page3">Pledgors</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link2" rel="content-page3">Takeover</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link3" rel="content-page3">Shareholders</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link4" rel="content-page3">Indian Boards</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link5" rel="content-page3">AGM/EGM &amp; Postal Ballot Resolutions</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link6" rel="content-page3">Board Meeting Resolutions</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link7" rel="content-page3">Investor Meets</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link8" rel="content-page3">Auditors</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link9" rel="content-page3">Annual Reports</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link10" rel="content-page3">Environmental, Social &amp; Governance</a></li><li><a target="_blank" href="https://www.primeinfobase.com/CSR/pages/Handler1.ashx?token=j41WJgzCPVE2oTjEQfntWg==&amp;rndm=3qFHaNcG5PVlEhKM8IO2sw==" class="link11">Corporate Social Responsibility</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link12" rel="content-page3">Corporate Actions</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link13" rel="content-page3">Key Managerial Personnel</a></li><li><a href="noaccess.aspx" class="loginwindow lightbox link14" rel="content-page3">Company Contact Details</a></li><li><a target="_blank" href="https://www.primeinfobase.com/FinancialResults/pages/Handler1.ashx?token=j41WJgzCPVE2oTjEQfntWg==&amp;rndm=3qFHaNcG5PVlEhKM8IO2sw==" class="link15">Financial Results</a></li>
+</ul>
+
+<ul class="pull-right">
+<p id="ContentPlaceHolder1_lblConsolDBHead" style="font-size:16px; font-weight:bold; margin-bottom:5px;">Consolidated Databases</p>
+<li><span id="ContentPlaceHolder1_lblAllInOne"><a href="noaccess.aspx" class="loginwindow lightbox link16" rel="content-page3"><div class="tooltip">All-in-1 Shareholders<span class="tooltiptext">This is a daily updated database capturing all filings made under Insider &amp; Takeover Regulations (including filings relating to invocation of shares) as also data filed under Bulk and Block Deals, in quarterly Shareholding Patterns as also monthly portfolio disclosures made by Mutual Funds.</span></div></a></span></li>
+<li><span id="ContentPlaceHolder1_lblEventCalendar"><a href="noaccess.aspx" class="loginwindow lightbox link17" rel="content-page3"><div class="tooltip">Corporate Events Calendar<span class="tooltiptext">A comprehensive event calendar covering all past and forthcoming AGMs/EGMs, Board Meetings, Bondholders Meetings, Corporate Actions, Court Convened Meetings, Investor/Analyst Meets and Postal Ballots along with detailed agenda, under one roof, for all companies. This database is updated on a daily basis.</span></div></a></span></li>
+<p id="ContentPlaceHolder1_spl" style="font-size:16px; margin-top:15px; margin-bottom:5px; font-weight:bold;">Special Features</p>
+<li><span id="ContentPlaceHolder1_lblPersonWiseDb"><a href="noaccess.aspx" class="loginwindow lightbox link18" rel="content-page3"><div class="tooltip">Person-wise Module<span class="tooltiptext">Search by any individual’s name to instantly view his/her profile, present and past directorships, remuneration, connectivity with other directors, insider trading, share pledging and shareholding across all companies at a single place (made possible due to extensive name cleaning/uniquing exercise).</span></div></a></span></li>
+<li><span id="ContentPlaceHolder1_lblOtherProduct"><a target="_blank" href="https://www.primeinfobase.com/productir/pages/Handler1.ashx?token=j41WJgzCPVE2oTjEQfntWg==&amp;rndm=3qFHaNcG5PVlEhKM8IO2sw==" class="link19"><div class="tooltip">Company-wise Module<span class="tooltiptext">Search by any company’s name to instantly view data from all databases at a single place.</span></div></a></span></li>
+
+</ul>
+
+<ul class="pull-right companymaster">
+<li></li>
+</ul>
+
+
+
+</div>
+</div>
+</div>
+
+<div id="overlay12" class="overlay" style="opacity: 0.7;"></div>
+<div id="dialog12" class="inner-lightbox">
+<ul class="heading">
+    <li class="loginlink active"><a><span>Change Password</span></a></li>
+</ul>
+
+<div class="login-wp login-wpp changepass">
+
+<p><label class="col-sm-3">Old Password</label><input name="ctl00$ContentPlaceHolder1$txtoldPassword" type="password" id="ContentPlaceHolder1_txtoldPassword" validationgroup="change" class="col-sm-5">
+<span id="ContentPlaceHolder1_requsername" class="error" style="visibility:hidden;">Please enter old password</span>
+</p>
+<p><label class="col-sm-3">New Password</label><input name="ctl00$ContentPlaceHolder1$txtnewpassword" type="password" id="ContentPlaceHolder1_txtnewpassword" validationgroup="change" class="col-sm-5">
+<span id="ContentPlaceHolder1_reqpassword" class="error" style="visibility:hidden;">Please enter new Password</span>
+</p>
+<p><label class="col-sm-3">Re-enter New Password</label><input name="ctl00$ContentPlaceHolder1$txtrnewpass" type="password" id="ContentPlaceHolder1_txtrnewpass" validationgroup="change" class="col-sm-5">
+<span id="ContentPlaceHolder1_RequiredFieldValidator1" class="error" style="visibility:hidden;">Please re-enter enter new Password</span>
+
+</p>
+
+<p class="btnwp"><label class="col-sm-3">&nbsp;</label>
+<input type="submit" name="ctl00$ContentPlaceHolder1$btnlogin" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnlogin&quot;, &quot;&quot;, true, &quot;change&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btnlogin">
+</p>
+</div>
+
+<a onclick="hide_errorMsg();" class="cls-lightbox">Close</a>
+</div>
+
+
+    
+
+<script type="text/javascript" src="js/jquery.bxslider.min.js?vrz=1.3"></script>
+
+<script>
+    $(document).ready(function (e) {
+        $('.mediawp').bxSlider({
+            auto: true,
+            mode: 'fade',
+            pause: 1000,
+            nextSelector: '#slider-next',
+            prevSelector: '#slider-prev',
+            speed: 1000
+        });
+    });
+</script>
+
+<style type="text/css">
+    /*@media screen and (max-width:639px){
+        .on-desktop{ display:none; }
+    }*/
+    #cblright1_pnllogin .box{margin-bottom:10px;}
+    a.capam img{width:250px; border:#e7e7e7 solid 1px; box-shadow: 4px 4px 8px rgba(0, 0, 0, .4);}   
+</style>
+
+<div class="col-xs-3 col-xxs-12 pull-right rightsection">
+
+<!--<div class="adwrap"><a href="http://www.ficci-capam.com/" target="_blank"><img src="http://www.primedatabase.com/ads/Web_Banner.jpg" class="adds"></a></div>-->
+
+
+    
+
+  
+<div class="get-in-touch">
+<h2>Get in <span>Touch</span></h2>
+    <div>
+        <p><strong class="col-sm-2 col-xss-12 col-xs-12">Tel</strong><span class="col-sm-10 col-xss-12 col-xs-12"> : +91-11-4100-8346/7/8</span> </p>
+        <p><strong class="col-sm-2 col-xss-12 col-xs-12">Email</strong><span class="col-sm-10 col-xss-12 col-xs-12"> : <a href="mailto:info@primeinfobase.com">info@primeinfobase.com</a></span></p>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+<div id="pnl">
+	
+<footer id="footer">
+
+<div class="footer">
+<div class="col-xs-4 col-xxs-12 text-left">
+<!--<a href="http://www.nseindia.com/global/content/about_us/about_us.htm" target="_blank">About NSE</a>&nbsp;<span style="color:#fff;">/</span>&nbsp;--><a href="http://www.primedatabasegroup.com" target="_blank">About PRIME</a>
+</div>
+<div class="col-xs-8 col-xxs-12 text-right">
+<a href="feedback.aspx">Feedback</a>&nbsp;&nbsp;<a href="TermsAndConditions.aspx">Terms &amp; Conditions</a>&nbsp;&nbsp;<a href="privacy-policy.aspx">Privacy Policy</a>&nbsp;&nbsp;<a href="refundandcancellationpolicy.aspx">Refund &amp; Cancellation Policy</a>
+</div>
+</div>
+
+
+<div class="copy_right">
+<p class="text-center"><b>© PRIME DATABASE GROUP 1989-2025</b>
+<br>
+<span>No part of this site may be reproduced without the explicit permission of the owners.</span>
+</p>
+</div>
+
+
+</footer>
+</div>
+
+</div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ContentPlaceHolder1_requsername"), document.getElementById("ContentPlaceHolder1_reqpassword"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ContentPlaceHolder1_requsername = document.all ? document.all["ContentPlaceHolder1_requsername"] : document.getElementById("ContentPlaceHolder1_requsername");
+ContentPlaceHolder1_requsername.controltovalidate = "ContentPlaceHolder1_txtoldPassword";
+ContentPlaceHolder1_requsername.errormessage = "Please enter old password";
+ContentPlaceHolder1_requsername.validationGroup = "change";
+ContentPlaceHolder1_requsername.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_requsername.initialvalue = "";
+var ContentPlaceHolder1_reqpassword = document.all ? document.all["ContentPlaceHolder1_reqpassword"] : document.getElementById("ContentPlaceHolder1_reqpassword");
+ContentPlaceHolder1_reqpassword.controltovalidate = "ContentPlaceHolder1_txtnewpassword";
+ContentPlaceHolder1_reqpassword.errormessage = "Please enter new Password";
+ContentPlaceHolder1_reqpassword.validationGroup = "change";
+ContentPlaceHolder1_reqpassword.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_reqpassword.initialvalue = "";
+var ContentPlaceHolder1_RequiredFieldValidator1 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator1"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1");
+ContentPlaceHolder1_RequiredFieldValidator1.controltovalidate = "ContentPlaceHolder1_txtrnewpass";
+ContentPlaceHolder1_RequiredFieldValidator1.errormessage = "Please re-enter enter new Password";
+ContentPlaceHolder1_RequiredFieldValidator1.validationGroup = "change";
+ContentPlaceHolder1_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('ContentPlaceHolder1_requsername').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_requsername'));
+}
+
+document.getElementById('ContentPlaceHolder1_reqpassword').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_reqpassword'));
+}
+
+document.getElementById('ContentPlaceHolder1_RequiredFieldValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_RequiredFieldValidator1'));
+}
+//]]>
+</script>
+</form>
+
+</body></html>

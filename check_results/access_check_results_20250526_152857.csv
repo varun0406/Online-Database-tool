@@ -1,0 +1,16 @@
+Database Name,URL,Script File,Status,Timestamp
+American So. of Mech. Engg. (ASME),https://asmedigitalcollection.asme.org/,American So. of Mech. Engg. (ASME).py,Error: No module named 'Codes.American So',2025-05-26 15:28:57
+BIS Standard,https://standards.bsbedge.com/dashboard,BIS Standard.py,Running,2025-05-26 15:30:11
+ACM Digital Library,https://dl.acm.org/,ACM Digital Library.py,Running,2025-05-26 15:30:11
+ACS Publications,https://pubs.acs.org/journal/accacs,ACS Publications.py,Running,2025-05-26 15:30:20
+ARTSTOR,https://www.jstor.org/,ARTSTOR.py,Running,2025-05-26 15:30:32
+Cambridge Uni.Press (15 Jo.) ,https://www.cambridge.org/core/publications/journals#,camb_Uni_Press.py,Running,2025-05-26 15:30:43
+EBSCO Business Source Ultimate,https://research.ebsco.com/c/el46ki/search,EBSCO Business Source Ultimate.py,Running,2025-05-26 15:30:45
+Economic Outlook,https://economicoutlook.cmie.com/,Economic Outlook.py,Running,2025-05-26 15:30:45
+American Institute of Physics (AIP),https://pubs.aip.org/aip,American Institute of Physics (AIP).py,Not Running,2025-05-26 15:30:45
+EPWRF,https://epwrfits.in/,EPWRF.py,Running,2025-05-26 15:30:59
+ACE Equity V2,https://www.acekp.in/HomePage.aspx,ACE Equity V2.py,Not Running,2025-05-26 15:31:04
+MathScinet,https://mathscinet.ams.org/mathscinet/publications-search,MathScinet.py,Running,2025-05-26 15:31:16
+Industry Outlook,https://industryoutlook.cmie.com/,Industry Outlook.py,Running,2025-05-26 15:31:16
+JSTOR,https://www.jstor.org/,JSTOR.py,Running,2025-05-26 15:31:16
+IEEE Xplore Digital Library,https://ieeexplore.ieee.org/Xplore/home.jsp,IEEE Xplore Digital Library.py,Running,2025-05-26 15:31:16

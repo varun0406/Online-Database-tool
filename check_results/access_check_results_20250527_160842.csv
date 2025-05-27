@@ -1,0 +1,41 @@
+Database Name,URL,Script File,Status,Timestamp
+ACM Digital Library,https://dl.acm.org/,ACM Digital Library.py,Error: No module named 'selenium',2025-05-27 16:08:42
+ACE Equity V2,https://www.acekp.in/HomePage.aspx,ACE Equity V2.py,Error: No module named 'selenium',2025-05-27 16:08:42
+American Institute of Physics (AIP),https://pubs.aip.org/aip,American Institute of Physics (AIP).py,Error: No module named 'selenium',2025-05-27 16:08:42
+ARTSTOR,https://www.jstor.org/,ARTSTOR.py,Error: No module named 'selenium',2025-05-27 16:08:42
+BIS Standard,https://standards.bsbedge.com/dashboard,BIS Standard.py,Error: No module named 'selenium',2025-05-27 16:08:42
+ACS Publications,https://pubs.acs.org/journal/accacs,ACS Publications.py,Error: No module named 'selenium',2025-05-27 16:08:42
+EPWRF,https://epwrfits.in/,EPWRF.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Economic Outlook,https://economicoutlook.cmie.com/,Economic Outlook.py,Error: No module named 'selenium',2025-05-27 16:08:42
+MathScinet,https://mathscinet.ams.org/mathscinet/publications-search,MathScinet.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Cambridge Uni.Press (15 Jo.) ,https://www.cambridge.org/core/publications/journals#,camb_Uni_Press.py,Error: No module named 'selenium',2025-05-27 16:08:42
+IEEE Xplore Digital Library,https://ieeexplore.ieee.org/Xplore/home.jsp,IEEE Xplore Digital Library.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Project Muse,https://muse.jhu.edu/,Project Muse.py,Error: No module named 'selenium',2025-05-27 16:08:42
+EBSCO Business Source Ultimate,https://research.ebsco.com/c/el46ki/search,EBSCO Business Source Ultimate.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Sage Journals collection ,https://journals.sagepub.com/home,Sage Journals collection.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Industry Outlook,https://industryoutlook.cmie.com/,Industry Outlook.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Scopus,https://www.scopus.com/search/form.uri?display=basic#basic,Scopus.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Prime Infobase,https://www.primeinfobase.com/myaccount.aspx,Prime Infobase.py,Error: No module named 'selenium',2025-05-27 16:08:42
+JSTOR,https://www.jstor.org/,JSTOR.py,Error: No module named 'selenium',2025-05-27 16:08:42
+ProQuest E-Books Central,https://ebookcentral.proquest.com/lib/ahduniin/home.action,ProQuest E-Books Central.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Wiley Management Journals Collection,https://onlinelibrary.wiley.com/,Wiley Management Journals Collection.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Venture Intelligence PE/VC,https://www.ventureintelligence.com/dashboard,Venture Intelligence.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Wiley Online Books,https://onlinelibrary.wiley.com/,Wiley Online Books.py,Error: No module named 'selenium',2025-05-27 16:08:42
+States of India,https://statesofindia.cmie.com/,States of India.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Science Direct,https://www.sciencedirect.com/,Science Direct.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Ethics : an International Journal of Social Political and Legal Philosophy,https://www.journals.uchicago.edu/loi/et,ethics.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Psychological Studies (Electronic),https://link.springer.com/journal/12646/volumes-and-issues,Psychological Studies.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Press reader ,https://www.pressreader.com/,Press reader.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Health Promotion International,https://www.jstor.org/journal/,Health Promotion International.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Heritage and Society,https://www.tandfonline.com/loi/yhso20,Heritage and Society.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Journal of Financial and Quantitative Analysis,https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/all-issues,Journal of Financial and Quantitative Analysis.py,Error: No module named 'selenium',2025-05-27 16:08:42
+International Journal of Heritage and Studies,https://www.tandfonline.com/loi/rjhs20,International Journal of Heritage and Studies.py,Error: No module named 'selenium',2025-05-27 16:08:42
+International Journal of Number Theory,https://www.worldscientific.com/worldscinet/ijnt?srsltid=AfmBOopRYimEuwWCgVrwQBM0YAp5MhM3-ZC7QPyiarr9GcDOlr-bYUU_,International Journal of Number Theory.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Review of Accounting Studies,https://link.springer.com/journal/11142/volumes-and-issues,Review of Accounting Studies.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Journal of the Academy of Marketing Science,https://link.springer.com/journal/11747/volumes-and-issues,Journal of the Academy of Marketing Science.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Oxford University Press,https://academic.oup.com/,Oxford University Press.py,Error: No module named 'selenium',2025-05-27 16:08:42
+The Review of Economic Studies,https://www.jstor.org/,The Review of Economic Studies.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Annals of Statistics  ,https://projecteuclid.org/journals/annals-of-statistics/issues,Annals of Statistics.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Journal of International Business Studies,https://www.jstor.org/,Journal of International Business Studies.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Springer LNCS (5296 books),https://link.springer.com/book/10.1007/978-3-030-44830-1,Springer LNCS.py,Error: No module named 'selenium',2025-05-27 16:08:42
+Journal of Business Venturing,https://www.sciencedirect.com/journal/journal-of-business-venturing,Journal of Business Venturing.py,Error: No module named 'selenium',2025-05-27 16:08:42

@@ -1,0 +1,45 @@
+﻿Sr No ,Database Name,URL,Script File
+1,ACE Equity V2,https://www.acekp.in/HomePage.aspx,ACE Equity V2.py
+2,ACM Digital Library,https://dl.acm.org/,ACM Digital Library.py
+3,ACS Publications,https://pubs.acs.org/journal/accacs,ACS Publications.py
+4,American Institute of Physics (AIP),https://pubs.aip.org/aip,American Institute of Physics (AIP).py
+5,American So. of Mech. Engg. (ASME),https://asmedigitalcollection.asme.org/,American So. of Mech. Engg. (ASME).py
+6,APA PsycArticles,https://psycnet.apa.org/search,
+7,ARTSTOR,https://www.jstor.org/,ARTSTOR.py
+8,BIS Standard,https://standards.bsbedge.com/dashboard,BIS Standard.py
+9,Cambridge Uni.Press (15 Jo.) ,https://www.cambridge.org/core/publications/journals#,camb_Uni_Press.py
+10,EBSCO Business Source Ultimate,https://research.ebsco.com/c/el46ki/search,EBSCO Business Source Ultimate.py
+11,Economic Outlook,https://economicoutlook.cmie.com/,Economic Outlook.py
+12,EPWRF,https://epwrfits.in/,EPWRF.py
+13,IEEE Xplore Digital Library,https://ieeexplore.ieee.org/Xplore/home.jsp,IEEE Xplore Digital Library.py
+14,Industry Outlook,https://industryoutlook.cmie.com/,Industry Outlook.py
+15,JSTOR,https://www.jstor.org/,JSTOR.py
+16,MathScinet,https://mathscinet.ams.org/mathscinet/publications-search,MathScinet.py
+17,Prime Infobase,https://www.primeinfobase.com/myaccount.aspx,Prime Infobase.py
+18,Project Euclid Prime Collection,https://projecteuclid.org/,
+19,Project Muse,https://muse.jhu.edu/,Project Muse.py
+20,ProQuest E-Books Central,https://ebookcentral.proquest.com/lib/ahduniin/home.action,ProQuest E-Books Central.py
+21,Sage Journals collection ,https://journals.sagepub.com/home,Sage Journals collection.py
+22,Science Direct,https://www.sciencedirect.com/,Science Direct.py
+23,Scopus,https://www.scopus.com/search/form.uri?display=basic#basic,Scopus.py
+24,States of India,https://statesofindia.cmie.com/,States of India.py
+25,Wiley Management Journals Collection,https://onlinelibrary.wiley.com/,Wiley Management Journals Collection.py
+26,Wiley Online Books,https://onlinelibrary.wiley.com/,Wiley Online Books.py
+27,Venture Intelligence PE/VC,https://www.ventureintelligence.com/dashboard,Venture Intelligence.py
+28,Press reader ,https://www.pressreader.com/,Press reader.py
+29,Ethics : an International Journal of Social Political and Legal Philosophy,https://www.journals.uchicago.edu/loi/et,ethics.py
+30,Psychological Studies (Electronic),https://link.springer.com/journal/12646/volumes-and-issues,Psychological Studies.py
+31,Health Promotion International,https://www.jstor.org/journal/,Health Promotion International.py
+32,Heritage and Society,https://www.tandfonline.com/loi/yhso20,Heritage and Society.py
+33,International Journal of Number Theory,https://www.worldscientific.com/worldscinet/ijnt?srsltid=AfmBOopRYimEuwWCgVrwQBM0YAp5MhM3-ZC7QPyiarr9GcDOlr-bYUU_,International Journal of Number Theory.py
+34,International Journal of Heritage and Studies,https://www.tandfonline.com/loi/rjhs20,International Journal of Heritage and Studies.py
+35,Journal of Financial and Quantitative Analysis,https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/all-issues,Journal of Financial and Quantitative Analysis.py
+36,Journal of Political Economy,https://www.journals.uchicago.edu/loi/jpe,Journal of Political Economy.py
+37,Journal of the Academy of Marketing Science,https://link.springer.com/journal/11747/volumes-and-issues,Journal of the Academy of Marketing Science.py
+38,Review of Accounting Studies,https://link.springer.com/journal/11142/volumes-and-issues,Review of Accounting Studies.py
+39,The Review of Economic Studies,https://www.jstor.org/,The Review of Economic Studies.py
+40,Journal of Business Venturing,https://www.sciencedirect.com/journal/journal-of-business-venturing,Journal of Business Venturing.py
+41,Journal of International Business Studies,https://www.jstor.org/,Journal of International Business Studies.py
+42,Oxford University Press,https://academic.oup.com/,Oxford University Press.py
+43,Springer LNCS (5296 books),https://link.springer.com/book/10.1007/978-3-030-44830-1,Springer LNCS.py
+44,Annals of Statistics  ,https://projecteuclid.org/journals/annals-of-statistics/issues,Annals of Statistics.py

@@ -1,0 +1,10 @@
+Database Name,URL,Script File,Status,Timestamp
+ACM Digital Library,https://dl.acm.org/,ACM Digital Library.py,Running,2025-05-26 11:40:34
+American So. of Mech. Engg. (ASME),https://asmedigitalcollection.asme.org/,American So. of Mech. Engg. (ASME).py,Error: No module named 'Codes.American So',2025-05-26 11:40:34
+ACE Equity V2,https://www.acekp.in/HomePage.aspx,ACE Equity V2.py,Not Running,2025-05-26 11:40:52
+American Institute of Physics (AIP),https://pubs.aip.org/aip,American Institute of Physics (AIP).py,Not Running,2025-05-26 11:41:02
+ACS Publications,https://pubs.acs.org/journal/accacs,ACS Publications.py,Not Running,2025-05-26 11:41:03
+ARTSTOR,https://www.jstor.org/action/doBasicSearch?Query=art&efqs=eyJjdHkiOlsiWTI5dWRISnBZblYwWldSZmFXMWhaMlZ6IiwiWTI5dWRISnBZblYwWldSZmNHRnViM0poYldGeiJdfQ%3D%3D&image_search_referrer=global&acc=off&searchkey=1747719859883&so=rel,ARTSTOR.py,Not Running,2025-05-26 11:41:18
+BIS Standard,https://standards.bsbedge.com/dashboard,BIS Standard.py,Not Running,2025-05-26 11:41:27
+EBSCO Business Source Ultimate,https://research.ebsco.com/c/el46ki/search,EBSCO Business Source Ultimate.py,Running,2025-05-26 11:41:29
+Cambridge Uni.Press (15 Jo.) ,https://www.cambridge.org/core/publications/journals#,camb_Uni_Press.py,Running,2025-05-26 11:41:34
