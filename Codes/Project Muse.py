@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 def detect_ahmedabad_university(driver, timeout=20):
     try:
         WebDriverWait(driver, timeout).until(
-            lambda d: "access provided by ahmedabad university, ahmedabad" in d.find_element(By.CLASS_NAME, "login_status").text.lower()
+            lambda d: "Access provided by Ahmedabad University, Ahmedabad" in d.find_element(By.CLASS_NAME, "login_status").text.lower()
         )
         print("Found 'Access provided by Ahmedabad University, Ahmedabad' in login_status!")
         return True

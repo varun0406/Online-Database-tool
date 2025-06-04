@@ -1,0 +1,43 @@
+Database Name,URL,Script File,Status,Timestamp
+ACM Digital Library,https://dl.acm.org/,ACM Digital Library.py,Running,2025-06-02 11:33:58
+American So. of Mech. Engg. (ASME),https://asmedigitalcollection.asme.org/,ASME.py,Running,2025-06-02 11:34:03
+ACE Equity V2,https://www.acekp.in/HomePage.aspx,ACE Equity V2.py,Running,2025-06-02 11:34:05
+ARTSTOR,https://www.jstor.org/,ARTSTOR.py,Running,2025-06-02 11:34:06
+American Institute of Physics (AIP),https://pubs.aip.org/aip,American Institute of Physics (AIP).py,Running,2025-06-02 11:34:08
+BIS Standard,https://standards.bsbedge.com/dashboard,BIS Standard.py,Running,2025-06-02 11:34:27
+Economic Outlook,https://economicoutlook.cmie.com/,Economic Outlook.py,Running,2025-06-02 11:34:30
+ACS Publications,https://pubs.acs.org/journal/accacs,ACS Publications.py,Running,2025-06-02 11:34:30
+EPWRF,https://epwrfits.in/,EPWRF.py,Running,2025-06-02 11:34:46
+EBSCO Business Source Ultimate,https://research.ebsco.com/c/el46ki/search,EBSCO Business Source Ultimate.py,Running,2025-06-02 11:34:46
+Cambridge Uni.Press (15 Jo.) ,https://www.cambridge.org/core/publications/journals#,camb_Uni_Press.py,Running,2025-06-02 11:34:48
+JSTOR,https://www.jstor.org/,JSTOR.py,Running,2025-06-02 11:35:10
+MathScinet,https://mathscinet.ams.org/mathscinet/publications-search,MathScinet.py,Running,2025-06-02 11:35:11
+Prime Infobase,https://www.primeinfobase.com/myaccount.aspx,Prime Infobase.py,Running,2025-06-02 11:35:11
+IEEE Xplore Digital Library,https://ieeexplore.ieee.org/Xplore/home.jsp,IEEE Xplore Digital Library.py,Running,2025-06-02 11:35:11
+Industry Outlook,https://industryoutlook.cmie.com/,Industry Outlook.py,Running,2025-06-02 11:35:11
+Science Direct,https://www.sciencedirect.com/,Science Direct.py,Running,2025-06-02 11:35:36
+Project Euclid Prime Collection,https://projecteuclid.org/,Project Euclid Prime Collection.py,Not Running,2025-06-02 11:35:36
+Sage Journals collection ,https://journals.sagepub.com/home,Sage Journals collection.py,Running,2025-06-02 11:35:42
+ProQuest E-Books Central,https://ebookcentral.proquest.com/lib/ahduniin/home.action,ProQuest E-Books Central.py,Running,2025-06-02 11:35:42
+States of India,https://statesofindia.cmie.com/,States of India.py,Running,2025-06-02 11:36:06
+Wiley Management Journals Collection,https://onlinelibrary.wiley.com/,Wiley Management Journals Collection.py,Running,2025-06-02 11:36:06
+Venture Intelligence PE/VC,https://www.ventureintelligence.com/dashboard,Venture Intelligence.py,Running,2025-06-02 11:36:06
+Wiley Online Books,https://onlinelibrary.wiley.com/,Wiley Online Books.py,Running,2025-06-02 11:36:14
+Scopus,https://www.scopus.com/search/form.uri?display=basic#basic,Scopus.py,Running,2025-06-02 11:36:20
+Ethics : an International Journal of Social Political and Legal Philosophy,https://www.journals.uchicago.edu/loi/et,ethics.py,Running,2025-06-02 11:36:35
+Psychological Studies (Electronic),https://link.springer.com/journal/12646/volumes-and-issues,Psychological Studies.py,Running,2025-06-02 11:36:35
+Press reader ,https://www.pressreader.com/,Press reader.py,Running,2025-06-02 11:36:35
+Health Promotion International,https://www.jstor.org/,Health Promotion International.py,Running,2025-06-02 11:36:55
+Heritage and Society,https://www.tandfonline.com/loi/yhso20,Heritage and Society.py,Running,2025-06-02 11:36:55
+International Journal of Heritage and Studies,https://www.tandfonline.com/loi/rjhs20,International Journal of Heritage and Studies.py,Running,2025-06-02 11:36:55
+International Journal of Number Theory,https://www.worldscientific.com/worldscinet/ijnt?srsltid=AfmBOopRYimEuwWCgVrwQBM0YAp5MhM3-ZC7QPyiarr9GcDOlr-bYUU_,International Journal of Number Theory.py,Running,2025-06-02 11:37:10
+Journal of Financial and Quantitative Analysis,https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/all-issues,Journal of Financial and Quantitative Analysis.py,Running,2025-06-02 11:37:10
+Journal of the Academy of Marketing Science,https://link.springer.com/journal/11747/volumes-and-issues,Journal of the Academy of Marketing Science.py,Running,2025-06-02 11:37:23
+The Review of Economic Studies,https://www.jstor.org/,The Review of Economic Studies.py,Running,2025-06-02 11:37:23
+Review of Accounting Studies,https://link.springer.com/journal/11142/volumes-and-issues,Review of Accounting Studies.py,Running,2025-06-02 11:37:24
+Journal of International Business Studies,https://www.jstor.org/,Journal of International Business Studies.py,Running,2025-06-02 11:37:31
+Journal of Business Venturing,https://www.sciencedirect.com/journal/journal-of-business-venturing,Journal of Business Venturing.py,Running,2025-06-02 11:37:42
+Springer LNCS (5296 books),https://link.springer.com/book/10.1007/978-3-030-44830-1,Springer LNCS.py,Running,2025-06-02 11:37:42
+Oxford University Press,https://academic.oup.com/,Oxford University Press.py,Running,2025-06-02 11:37:55
+Annals of Statistics  ,https://projecteuclid.org/journals/annals-of-statistics/issues,Annals of Statistics.py,Not Running,2025-06-02 11:37:58
+Project Muse,https://muse.jhu.edu/,Project Muse.py,Not Running,2025-06-02 11:39:07

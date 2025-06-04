@@ -42,7 +42,7 @@
 <body>
     <form method="post" action="./HomePage.aspx" id="form1">
 <div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Vo7uFX7VnVhdr1yloYgT8JpVI2w2Sltj3WRgB666NFYZ+JIgXtVup/aFNzYg1AkQ21U/+r5jsCOb4l4sfA9eMvpCGAxs9YnZtmoiGauOXyReGgLmnWu5L0Q4dkuMMa7YfCCjwbabHxlK/J6T2QhqIhf+S6argMNua6iQmLHiEmg=">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="WzP2wjwKYLkWdRDC1N9ntatFkKWu27Q9W5ErIYhV3DNdOVIZnARW+i5hDezD9y85Uz0YrbwRJ2GOOLQVVX6rYMraDUwMoXVkupJIK4QauT9aY3nD5dpTPsTyT9Tw3uFCMLdcc3R8ydZc5eKcvzCzBpmK+YQo4YZTz6JxJPGdIVFdie/ZuWWKBhxUi59ODNzfYFzMS9SryiRLdko0xsN+UkjEpKMqq+h/+6J0CXUfhZJd6qixj+/EMzjmw2Yqqzt9">
 </div>
 
 <div class="aspNetHidden">
@@ -65,13 +65,34 @@
         }
     }
 </script>
-
+<div id="loginpopup">
+    <div class="loginbox">
+        <div class="logcontent">
+            <span>Login<b>ACE Knowledge Portal</b></span>
+            <p>
+                <i>User&nbsp;ID</i>
+                <input name="LoginL$txtUserID1" type="text" value="User Id" id="txtUserID1" onfocus="if (value == 'User Id') value = ''" onblur="if(value == '') value = 'User Id'"></p>
+            <p>
+                <i>Password</i><input name="LoginL$txtPwd1" type="password" id="txtPwd1" onfocus="if (value != '') value = ''" onblur="if(value == '') value = 'Password'" value="password"></p>
+            
+            
+            <input type="image" name="LoginL$Btn_Login" id="LoginL_Btn_Login" class="FR" src="App_Themes/Common/Images/Login-tab-img.png" onclick="javascript:return LoginValidate();" style="height:28px;width:64px;">
+            <i><span id="LoginL_Errlbl1" style="text-align: center;
+                    height: 10px;">
+                    <span id="ErrLbl" style="display:inline-block;color:Red;font-size:11px;width:200px;"></span>
+                </span></i>
+            <input type="hidden" name="LoginL$HiddenField1" id="LoginL_HiddenField1">
+            <input type="hidden" name="LoginL$HiddenField2" id="LoginL_HiddenField2">
+            <input type="hidden" name="LoginL$Hdn_Pwd" id="LoginL_Hdn_Pwd">
+        </div>
+    </div>
+</div>
 
     <!--Login popup end -->
     
     <div style="width: 975px; height: 135px" class="wrapper">
         <a href="https://www.acekp.in/HomePage.aspx" style="padding-left: 20px">
-            <img src="https://www.acekp.in/wimtest/Working/web/103.233.171.34_crop_AU.jpg" alt="" width="height=" style="float: left;">
+            
         </a>
         <div style="float: right; position: relative">
             <a href="http://www.accordfintech.com" target="_blank">
@@ -120,7 +141,7 @@
             </div>
             <div>
                 <p>
-                    A comprehensive portal for financial and analytical research information, which covers the followings </p>
+                    </p>
             </div>
             <div class="overh">
                 <div id="go-prev" class="bx-prev fl">

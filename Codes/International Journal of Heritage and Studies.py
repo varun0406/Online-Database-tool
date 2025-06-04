@@ -21,6 +21,8 @@ def check_access(url, save_dir="downloaded_html"):
     filename = url.replace("https://", "").replace("http://", "").replace("/", "_") + ".html"
     filepath = os.path.join(save_dir, filename)
     options = Options()
+    #maximize window
+    options.add_argument("--start-maximized")
     # Uncomment for headless mode
     driver = webdriver.Chrome(options=options)
     found = False

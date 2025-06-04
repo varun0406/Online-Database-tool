@@ -48,6 +48,6 @@ def check_access(url, save_dir="downloaded_html"):
         driver.quit()
 
 if __name__ == "__main__":
-    url = "https://onlinelibrary.wiley.com/books"
+    url = "https://onlinelibrary.wiley.com/"
     result = check_access(url)
     print(f"Access check result: {result}")
